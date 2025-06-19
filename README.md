@@ -2,3 +2,5 @@
 
 
 Informe disponible acá: [https://multinivel-facso.github.io/trabajo1-grupo-1/Primera%20entrega%20multinivel.html](https://multinivel-facso.github.io/trabajo1-grupo-1/Primera%20entrega%20multinivel.html)
+
+[Presentación final](https://multinivel-facso.github.io/trabajo1-grupo-1/output/presentacion/pres_multinivel.html#/la-alfabetización-digital-en-escolares-del-mundo-actual)
