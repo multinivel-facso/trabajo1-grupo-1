@@ -1,0 +1,5 @@
+"0","#| include: false"
+"0",""
+"0","results_3 = lmer(alf_digital ~ 1 + pib + adm_digital + (1 | CNTRY), data = icils_c)"
+"2","Error: bad 'data': objeto 'icils_c' no encontrado
+"

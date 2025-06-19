@@ -1,0 +1,6 @@
+"0","#| label: Distancia de Cook"
+"0","#| include: false"
+"0",""
+"0","cases <- influence(results_3, ""CNTRY"")"
+"2","Error: objeto 'results_3' no encontrado
+"

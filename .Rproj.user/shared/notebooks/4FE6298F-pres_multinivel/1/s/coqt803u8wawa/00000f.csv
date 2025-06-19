@@ -1,0 +1,21 @@
+"0","#| echo: false "
+"0",""
+"0","pacman::p_load(lme4, reghelper, haven, stargazer, ggplot2, texreg, dplyr,"
+"0","               foreign, lattice, sjPlot, sjlabelled, skimr, ggefects)"
+"2","Installing package into ‘C:/Users/56933/AppData/Local/R/win-library/4.4’
+(as ‘lib’ is unspecified)
+"
+"2","Aviso: package ‘ggefects’ is not available for this version of R
+
+A version of this package for your version of R might be available elsewhere,
+see the ideas at
+https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages"
+"2","Aviso: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.4/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Aviso: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.4/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Aviso: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.4/PACKAGES': HTTP status was '404 Not Found'"
+"2","Aviso: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.4:
+  no fue posible abrir la URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.4/PACKAGES'"
+"2","Aviso: "
+"2","Aviso: no hay paquete llamado ‘ggefects’"
+"2","Aviso: Failed to install/load:
+ggefects"

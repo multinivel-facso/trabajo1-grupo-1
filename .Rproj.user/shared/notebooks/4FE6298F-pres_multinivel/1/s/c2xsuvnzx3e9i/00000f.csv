@@ -1,0 +1,18 @@
+"0","#| label: Base agregada "
+"0","#| echo: false "
+"0",""
+"0","icils_lvl_2 <- icils %>% group_by(CNTRY) %>% summarise_all(funs(mean))"
+"2","Aviso: `funs()` was deprecated in dplyr 0.8.0.
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))"
+"0","icils_lvl2 <- icils %>% "
+"0","  group_by(CNTRY) %>% "
+"0","  summarise(across(where(is.numeric), mean, na.rm = TRUE))"

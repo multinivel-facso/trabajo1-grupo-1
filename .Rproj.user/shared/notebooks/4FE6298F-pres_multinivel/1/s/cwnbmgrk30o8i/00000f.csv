@@ -1,0 +1,6 @@
+"0","#| echo: false "
+"0",""
+"0","pacman::p_load(lme4, reghelper, haven, stargazer, ggplot2, texreg, dplyr,"
+"0","               foreign, lattice, sjPlot, sjlabelled, skimr, influence.ME,"
+"0","               patchwork, kableExtra)"
+"0","library(ggeffects)"

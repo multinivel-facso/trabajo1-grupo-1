@@ -1,0 +1,13 @@
+"0","#| tbl-cap: ""Variables nivel 1"""
+"0","#| tbl-cap-location: bottom"
+"0","#| label: tbl-descr1"
+"0",""
+"0","icils %>%  select (alf_digital, sexo, expcompu, aprendizaje_escuela,"
+"0","                   autoeffgen, iiseb) %>% "
+"0","  haven::zap_labels() %>%"
+"0","  sjmisc::descr(.,"
+"0","      show = c(""label"",""range"", ""mean"", ""sd"", ""NA.prc"", ""n""))%>%"
+"0","      kable(., digits =2, ""markdown"")"
+"2","Error en kable(., digits = 2, ""markdown""): 
+  no se pudo encontrar la función ""kable""
+"
