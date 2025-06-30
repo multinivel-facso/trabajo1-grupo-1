@@ -321,6 +321,10 @@ $$
 
 $$\text{alf\_digital}_{ij} = \gamma_{00} + \gamma_{20} \text{iiseb}_{ij} + \gamma_{02} \text{logpib}_{ij} + \mu_{1j}\text{iiseb}_{ij} + \mu_{0j} + r_{ij}$$
 
+**6) Interacción entre niveles**
+
+$$\text{alf\_digital}_{ij} = \gamma_{00} +  \gamma_{20} \text{iiseb}_{ij} + \gamma_{02} \text{logpib}_{ij} + \gamma_{11}\text{iiseb}_{ij} \text{logpib}_{ij} + \mu_{1j}\text{iiseb}_{ij} + \mu_{0j} + r_{ij}$$
+
 # Resultados
 
 ## Descriptivos
