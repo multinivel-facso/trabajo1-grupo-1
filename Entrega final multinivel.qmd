@@ -29,6 +29,10 @@ editor:
     wrap: 72
 ---
 
+# Abstract
+
+La creciente digitalización ha suscitado nuevas desigualdades en torno a la disponibilidad y el uso y conocimientos de las tecnologías digitales. Para estrechar estas brechas, la alfabetización digital se presenta no sólo como una solución, sino como una competencia fundamental para la vida en la sociedad actual. Los estudiantes conviven en entornos digitales cotidianamente, pero no todos poseen la misma masterización en habilidades digitales. Al respecto, las condiciones del país en que se encuentran los jóvenes juegan un rol clave, en donde estas condiciones estructurales pueden determinar la alfabetización digital. Esta investigación tiene como objetivo explorar las determinantes a nivel individual y a nivel país que inciden en la alfabetización digital de los estudiantes. Se utiliza la base de datos ICILS 2023 (N = 135615 en 35 países) aplicando modelamiento multinivel. Los resultados indican a nivel individual la relevancia del sexo y nivel socioeconómico del estudiante para determinar la alfabetización digital, mientras que en el nivel dos la riqueza del país es más importante que un gobierno digitalizado en la alfabetización digital de sus estudiantes. 
+
 # Introducción
 
 Durante las últimas décadas las nuevas tecnologías se han expandido a un ritmo exponencial y vertiginoso, lo cual ha suscitado diversas interrogantes en torno a su presencia en la sociedad y, sobre todo, a los usos que se les dan a ellas. Efectivamente, en la actualidad la mayoría de las interacciones sociales se ven mediadas por la digitalidad, la cual ha logrado inscribirse en la cultura popular de las nuevas generaciones, formando parte constitutiva de sus trayectorias [@buckingham_mas_2008]. En este contexto, la proliferación de las Tecnologías de Información y Comunicación juega un rol sumamente relevante para la sociedad en tanto han fomentado el mejoramiento en la calidad de vida humana, aportando en diversos campos como la salud, la educación, la banca, el transporte y la gobernanza digital [@reddy_student_2020; @nand_metaheuristic_2019; @sharma_smart_2018; @reddy_tablet_2017; @pojani_sustainable_2015; @sharma_use_2015]. 
@@ -92,13 +96,13 @@ un puntaje más alto de alfabetización digital
 
 **Hipótesis de interacción**
 
-$H_6$ El efecto positivo del nivel socioeconómico sobre la alfabetización digital es más intensos en países con menor PIB per cápita
+$H_6$ El efecto positivo del nivel socioeconómico sobre la alfabetización digital es más intenso en países con menor PIB per cápita
 
 # Datos, variables y métodos
 
 Para dar una respuesta plausible a la pregunta de investigación, el
 presente estudio se sirve de la base de datos del último ciclo del
-International [Computer and Information Literacy
+[International Computer and Information Literacy
 Study](https://www.iea.nl/studies/iea/icils/2023) (ICILS) llevado a cabo
 el año 2023, aplicada en 35 países (N = 135615). Esta base, además de aplicar encuestas de caracterización, realiza una prueba práctica estandarizada para cumplir con la medición
 de la alfabetización digital. En este caso, se van a utilizar las bases
@@ -315,7 +319,7 @@ $$
 
 **5) Modelo con pendiente aleatoria**
 
-
+$$\text{alf\_digital}_{ij} = \gamma_{00} + \gamma_{20} \text{iiseb}_{ij} + \gamma_{02} \text{logpib}_{ij} + \mu_{1j}\text{iiseb}_{ij} + \mu_{0j} + r_{ij}$$
 
 # Resultados
 
@@ -443,13 +447,22 @@ reg_1 <- lmer(alf_digital ~ 1 + iiseb.cmc + logpib + (1 | CNTRY), data = icils_c
 reg_random <- lmer(alf_digital ~ 1 + iiseb.cmc + logpib + (1 + iiseb | CNTRY), data = icils_c)
 ```
 
+```{r}
+#| caption: interacción
+#| include: false
+
+interact <- lmer(alf_digital ~ 1 + iiseb.cmc*logpib + (1 + iiseb.cmc | CNTRY), 
+                 data = icils_c, REML = FALSE)
+```
+
+
 <div style="overflow-x: auto; width: 100%;">
 ```{r}
 #| label: tbl-models
 #| tbl-cap: Modelos 
 #| echo: false 
 
-tab_model(results, results_1, results_2, results_3, results_4, reg_random,
+tab_model(results, results_1, results_2, results_3, results_4, reg_random, interact, 
   show.ci = FALSE, 
   show.se = TRUE, 
   collapse.se = TRUE,
@@ -458,7 +471,7 @@ tab_model(results, results_1, results_2, results_3, results_4, reg_random,
   p.style = c("scientific_stars"),
   dv.labels = c("Modelo nulo", "Variables nivel 1", "Administración digital", 
                 "Variables nivel 2", 
-                "Modelo completo", "Pendiente aleatoria"),
+                "Modelo completo", "Pendiente aleatoria", "Interacción entre niveles"),
   CSS = list(css.table = "font-size: 20px;")
 )
 ```
@@ -511,13 +524,40 @@ El modelo con pendiente aleatoria para nivel socioeconómico pretende averiguar 
 
 $\tau_{11}$ = 26.12 respalda que el efecto del nivel socioeconómico no es el mismo para todos los países. Por su parte, $\rho_{01}$ = -0.24 indica que, en países con menor alfabetización digital, el efecto del nivel socioeconómico es más fuerte. 
 
+```{r}
+graf2 <- ggpredict(
+  reg_random, 
+  terms = c("iiseb", "CNTRY [CHL, URY, ROU, AZE, GRC, FIN]"), 
+  type = "random"
+)
+plot(graf2)
+```
+
+Este gráfico corresponde a la aleatorización de las pendientes de nivel socioeconómico. En primer lugar, se observa que las pendientes difieren unas entre otras, por lo que añadir efectos aleatorios es una decisión acertada. Los dos países latinoamericanos que participan en el estudio, Uruguay y Chile, tienen una pendiente positiva bastante similar. Por otro lado, la pendiente de Rumanía es bastante alta, lo que significa que el efecto de nivel socioeconómico sobre la alfabetización digital en ese país es fuerte. 
+
+### **Modelo interacción entre niveles** {.unnumbered}
+
+```{r}
+#| label: fig-interaction
+#| echo: false 
+#| fig-cap: Interacción entre índice socioeconómico y alfabetización digital
+#| fig-cap-location: bottom
+
+plot_model(interact, type = "int")
+```
+
+A pesar de mantenerse con coeficientes significativos, al momento de graficar la interacción, en @fig-interaction las dos pendientes no se intersectan, lo que quiere decir que no se ha encontrado una interacción entre nivel socioeconómico y PIB per cápita para predecir la alfabetización digital. 
+
 ## Ajuste
 
+Respecto al ajuste de los modelos, se puede ver que, en el modelo de variables individuales, el $r^2$ condicional es mayor al $r^2$ marginal (0.332 > 0.112), lo que quiere decir que el modelo con efectos aleatorios posee una mayor capacidad explicativa que el modelo con efectos fijos. El modelo con solamente variables contextuales también tiene un mejor ajuste en el $r^2$ condicional, respaldando la estimación de un modelo con efectos aleatorios. El resultado más llamativo es el ajuste del modelo completo, en donde el $r^2$ condicional, si bien es mejor que su $r^2$ marginal (0.314 > 0.187), es más bajo que el $r^2$ condicional del modelo con variables individuales. No obstante, esto no quiere decir necesariamente que el modelo con variables nivel 1 tenga mayor capacidad explicativa que el modelo completo, pero habría que entrar a escarbar de manera minuciosa para comprender a cabalidad la razón de este resultado. 
 
 ## Casos influyentes
 
+Para analizar la existencia de casos influyentes, se estimó la distancia de Cook a partir del modelo completo, de la cual resultó un cutoff de 0.13, entendiéndose que todos los países sobre ese umbral podrían ser casos que están modificando sustancialmente las estimaciones de los modelos. 
+
 ```{r}
-#| include: false
+#| echo: false
 
 cases <- influence(results_4, "CNTRY")
 
@@ -539,6 +579,7 @@ plot(cases, which = "cook",
      ylab = "Countries")
 ```
 
+@fig-cook grafica los países que son considerados como casos influyentes con rojo, mientras que los azules significa que no están interfiriendo en las estimaciones. Como se observa, más de la mitad de los países están por sobre 0.13, lo cual podría ser peligroso para el análisis pues, en algún caso, se podría decidir eliminar todos los países en rojo. No obstante, calculando la significancia de los casos, ninguno resultó como significante, por lo que se puede interpretar que no se puede asumir que los países en rojo sean casos influyentes. 
 
 # Discusión 
 
@@ -546,17 +587,23 @@ En relación a las hipótesis de carácter individual, hay evidencia a favor de 
 
 De la misma manera, el nivel socioeconómico ($H_2$) es significativa, por tanto,  tener un alto nivel socioeconómico se relaciona a un alto puntaje en alfabetización digital. Este efecto se entronca en la narrativa general de cómo el desempeño académico se ve predicho por los antecedentes socioeconomicos del estudiante. Esto resulta desalentador, pues se esperaría que con las condiciones actuales (disponibilidad de tecnologías de alto rendimiento) este efecto se mitigara, pero probablemente las escuelas aun no son o, en el peor de los casos, no serán capaces de ofrecer alternativas para sortear las desigualdades economicas de base de los estudiantes. Este resultado respalda la escuela en una lógica reproduccionista, pues el nivel socioeconómico es lo que regirá los resultados, reduciendo el margen de la agencia y/o talento de los estudiantes más desfavorecidos económicamente hablando. 
 
-La autoeficacia digital ($H_3$) no puede ser rechazada pues es significativa y mantenie la direccionalidad sugerida en las hipótesis, por lo tanto, tener alta autoeficacia digital se relacionan a un alto puntaje en alfabetización digital. 
+La autoeficacia digital ($H_3$) no puede ser rechazada pues es significativa y mantiene la direccionalidad sugerida en las hipótesis, por lo tanto, tener alta autoeficacia digital se relaciona a un mayor puntaje en alfabetización digital. Es sumamente interesante el resultado de esta hipótesis, pues releva la consideración de factores psicosociales en el logro académico en el contexto digital. Si bien es importante preparar a los estudiantes para que manejen los conocimientos prácticos y puedan tener un desempeño destacable, la valorización hacia uno mismo y sus capacidades juega un papel igual de notable. Por ello, hay que fomentar tanto el perfeccionamiento de las habilidades como el forjamiento de un autoestima sólido en los estudiantes, para que, de esta forma, puedan explotar sus capacidades sin restringirse. 
 
 En cuanto a las hipótesis de nivel país, la administración digital ($H_4$) no tiene sustento empírico, pues no es significativo, por lo que se puede deducir que el hecho de que un país tenga alta o baja administración digital, no influirá en la alfabetización digital de sus estudiantes. 
 
 El PIB per cápita ($H_5$) muestra que es significativo y posee un efecto positivo en la alfabetización digital, por lo que países con mayor riqueza tenderán a resultados más altos en este campo. 
 
-A partir de las dos últimas hipótesis, la masterización de habilidades digitales, más que deberse a un país con infraestructura tecnológica eficiente, se atribuye a las condiciones que permite generar la riqueza del país, es decir, la capacidad de una administración digital a nivel gubernamental se subsume al entramado que un país puede configurar a partir de las condiciones económicas propias. En este sentido, la gobernanza digital es contenida en este entramado, el cual podría abordar elementos de la esfera social, política y cultural, pero hace falta evidencia para entregar un diagnóstico más claro. 
+A partir de las dos últimas hipótesis se puede deducir que, la masterización de habilidades digitales, más que deberse a un país con infraestructura tecnológica eficiente, se atribuye a las condiciones que permite generar la riqueza del país, es decir, la capacidad de una administración digital a nivel gubernamental se subsume al entramado que un país puede configurar a partir de las condiciones económicas propias. En este sentido, la gobernanza digital es contenida en este entramado, el cual podría además abordar elementos de la esfera social, política y cultural, pero hace falta evidencia para entregar un diagnóstico más claro. 
+
+
 
 # Conclusiones
 
-Esta investigación tenía como objetivo analizar los factores individuales y contextuales a nivel país de la alfabetización digital en estudiantes. 
+Esta investigación tenía como objetivo analizar los factores individuales y contextuales a nivel país de la alfabetización digital en estudiantes. Respondiendo a la pregunta planteada al inicio, dentro de los hallazgos más importantes se encuentra la evidencia empírica de que sexo y nivel socioeconómico a nivel individual determinan la alfabetización digital de los estudiantes. A partir de la pendiente aleatoria, se pudo deducir que el efecto de nivel socioeconómico es distinto dependiendo del país, lo que también justifica de gran manera la utilización de modelamiento multinivel. El hallazgo más interesante fue la parcialización de administración digital y PIB per cápita, en donde el PIB terminó restándole toda la significancia previa que tenía la gobernanza digital. Este hallazgo permitió concluir que
+la riqueza de un país es lo que determina las habilidades y conocimientos digitales, independientemente de qué tanta infraestructura digital posea el país en términos de administración. Asimismo, estos resultados abrieron otras interrogantes como ¿qué determina el PIB para haber mitigado todo el efecto de administración digital? Sería interesante seguir trabajando en esta línea, con tal de profundizar en la comprensión de los factores a nivel país que influyen en la alfabetización digital de los estudiantes. 
+
+Para cerrar, se señalan algunas limitantes del estudio, como el hecho de que se habla educación pero no se consideran las escuelas como un nivel dentro del análisis, por lo que
+se pierde la posibilidad de capturar otras variables y efectos que serían útiles a considerar. Por otra parte, fue imposible encontrar variables de nivel 2 para todos los países debido a la naturaleza de ellos (como por ejemplo, la Alemania Westfalia-Norte). 
 
 # Anexo 
 
