@@ -1,0 +1,4 @@
+"0","#| label: creación de variable logaritmo de pib"
+"0","#| echo: false"
+"0",""
+"0","icils$logpib <- log(icils$pib)"

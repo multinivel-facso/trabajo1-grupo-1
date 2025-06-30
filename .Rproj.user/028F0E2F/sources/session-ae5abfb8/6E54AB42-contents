@@ -1,0 +1,617 @@
+---
+title: "La alfabetización digital en escolares del mundo actual"
+subtitle: "Un estudio de sus determinantes mediante modelamiento multinivel"
+author: "Tomás Urzúa"
+date: today
+lang: es
+fontsize: 14pt
+format:
+  html:
+    code-fold: true
+    toc: true
+    toc-location: right
+    toc-depth: 2
+    toc-expand: 1
+    toc-title: Contenidos
+    number-sections: true
+    number-depth: 2
+    theme:
+      - minty
+      - multinivel.scss
+    code-link: true
+    title-block-banner: true
+editor_options: 
+  chunk_output_type: console
+bibliography: 
+  - input/bib/multinivel-final.bib
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Abstract
+
+La creciente digitalización ha suscitado nuevas desigualdades en torno a la disponibilidad y el uso y conocimientos de las tecnologías digitales. Para estrechar estas brechas, la alfabetización digital se presenta no sólo como una solución, sino como una competencia fundamental para la vida en la sociedad actual. Los estudiantes conviven en entornos digitales cotidianamente, pero no todos poseen la misma masterización en habilidades digitales. Al respecto, las condiciones del país en que se encuentran los jóvenes juegan un rol clave, en donde estas condiciones estructurales pueden determinar la alfabetización digital. Esta investigación tiene como objetivo explorar las determinantes a nivel individual y a nivel país que inciden en la alfabetización digital de los estudiantes. Se utiliza la base de datos ICILS 2023 (N = 135615 en 35 países) aplicando modelamiento multinivel. Los resultados indican a nivel individual la relevancia del sexo y nivel socioeconómico del estudiante para determinar la alfabetización digital, mientras que en el nivel dos la riqueza del país es más importante que un gobierno digitalizado en la alfabetización digital de sus estudiantes. 
+
+# Introducción
+
+Durante las últimas décadas las nuevas tecnologías se han expandido a un ritmo exponencial y vertiginoso, lo cual ha suscitado diversas interrogantes en torno a su presencia en la sociedad y, sobre todo, a los usos que se les dan a ellas. Efectivamente, en la actualidad la mayoría de las interacciones sociales se ven mediadas por la digitalidad, la cual ha logrado inscribirse en la cultura popular de las nuevas generaciones, formando parte constitutiva de sus trayectorias [@buckingham_mas_2008]. En este contexto, la proliferación de las Tecnologías de Información y Comunicación juega un rol sumamente relevante para la sociedad en tanto han fomentado el mejoramiento en la calidad de vida humana, aportando en diversos campos como la salud, la educación, la banca, el transporte y la gobernanza digital [@reddy_student_2020; @nand_metaheuristic_2019; @sharma_smart_2018; @reddy_tablet_2017; @pojani_sustainable_2015; @sharma_use_2015]. 
+
+Estas nuevas tecnologías han irrumpido con fuerza en los procesos de enseñanza y aprendizaje de los establecimientos educacionales, viéndose la educación como el campo para abordar los desafíos que imponen estas transformaciones [@sunkel_aprender_2011]. La implementación de las TIC en la educación ha generado expectativas al punto de considerarse como un catalizador para la reducción de las desigualdades [@claro_impacto_2010]. Aun así, es sumamente importante que, además de que exista equidad respecto a la infraestructura tecnológica existente en las escuelas, también hay que preocuparse de las habilidades que poseen las personas para desenvolverse con las TIC. 
+
+El desarrollo de las tecnologías digitales también ha generado la emergencia de otras brechas. Este fenómeno ha tomado el nombre de brecha digital, cuyo significado corresponde a la distancia que se produce entre los individuos y sociedades que pueden acceder y participar de la era de la información y los que no los tienen [@dijk_digital_2020]. Uno de los problemas más perjudiciales de la brecha digital es que se piensa que su padecimiento implica la agudización de otras brechas, tales como la económica y la social [@camacho_brecha_2005]. En la misma línea, se ha planteado el surgimiento de una segunda brecha digital, asociada a las habilidades necesarias para relacionarse y operar de manera adecuada las TIC [@claro_impacto_2010]. 
+
+En este contexto, la alfabetización digital surge como una alternativa que posibilita hacer frente a las brechas digitales a través del desarrollo de habilidades necesarias para ser usuario de la información digital, tales como la aptitud para identificar la calidad de un contenido y/o la adaptabilidad a diversos contextos en el uso de TIC [@castells_sociedad_2006; @garcia-avila_alfabetizacion_2017]. A pesar de ser un concepto cada vez más relevante, no existe una definición universal de la alfabetización digital, ni tampoco una pauta general de cómo medirla. Sobre aquello, el estudio International Computer and Information Literacy Study operacionaliza el concepto en alfabetización computacional y manejo de la información de tal manera que pueda ser medido, entendiéndolo como la capacidad individual para utilizar computadores con fines de investigación, creación y comunicación, con tal de participar de manera eficaz en el hogar, la escuela, el lugar de trabajo y la sociedad [@fraillon_icils_2013]. 
+
+Es importante precisar que, aunque la alfabetización digital pueda concebirse como una opción para reducir la exclusión digital, debe comprenderse más allá de su carácter resolutivo y considerarse como una de las piedras angulares para el desarrollo humano actual en tanto dota de una capacidad agencial a los individuos al permitirles desplegarse activamente en los nuevos entornos que involucran la digitalidad, lo que consecuentemente los lleva a integrarse a la sociedad apropiadamente y no quedar marginados de la ciudadanía [@silvera_alfabetizacion_2005; @barroso_investigacion_2011; @cabero_tendencias_2016]. 
+
+Las brechas digitales poseen este carácter individual, en donde ciertos grupos gozan de los beneficios que proporcionan estas tecnologías, mientras otros son relegados a quedar fuera del mundo digital, pero esta lógica también observarse entre países, pues existen países que se encuentran mejor posicionados frente al malestar digital que otros [@silvera_alfabetizacion_2005]. De hecho, existen diferencias sustantivas respecto al desarrollo e implementación de las TIC entre regiones. Los países desarrollados han logrado superar en cierta medida la primera brecha digital, mientras en Latinoamérica aún no se ha encontrado alguna resolución respecto a los problemas de acceso a las TIC [@claro_impacto_2010]. 
+
+Generalmente, los países desarrollados tienden a tener mejores resultados en estudios comparativos internacionales que países subdesarrollados [@oecd_pisa_2023; @iea_pirls_2021]. Estas diferencias pueden explicarse por factores culturales, económicas y/o educativos particulares de cada país, lo que puede dar lugar a experiencias diferentes de los estudiantes dependiendo de su pertenencia. Señalar estas diferencias entre países constituye un paso importante para la evaluación de los sistemas educativos [@punter_gender_2017].
+
+Existen estudios que han intentado aplicar un enfoque comparativo para dar cuenta de cómo varía la relevancia de los predictores dependiendo el país. En este marco, está el estudio de @gerick_schoollevel_2017, cuyo propósito fue evidenciar cuáles son los factores a nivel escuela que apoyan u obstaculizan el uso de TIC por parte de profesores y estudiantes, comparando entre Australia, Alemania, Noruega y República Checa; sus resultados indican que sólo en Alemania la alfabetización digital no implica necesariamente disponibilidad de infraestructura tecnológica. Por su parte, @aydin_multilevel_2022 se centró en indagar en los determinantes de la alfabetización digital en alumnos, realizando un estudio que examinó las características de los profesores y los estudiantes mediante un análisis comparativo entre Finlandia y Corea.
+
+Considerando la importancia de la pertenencia a un país respecto al desempeño académico, este trabajo pretende explorar en los factores que inciden en la alfabetización digital a través de un análisis comparado entre países, con tal de dilucidar cómo se comportan estos predictores dependiendo la región. Tomando en cuenta esto, se propone la siguiente pregunta de investigación: **¿De qué manera se relacionan los factores individuales y contextuales a nivel país en el logro de alfabetización digital de los estudiantes?**
+
+# Factores asociados
+
+## Nivel individual 
+
+El género es factor fundamental al momento de estudiar la alfabetización digital, pues mediante dinámicas de estigmatización las mujeres han sido opacadas en el campo tecnológico, viéndose relegadas a ocupar una posición inferior en cuanto al dominio digital, pero la manera en que se comprenden estos resultados ha cambiado en el tiempo [@fairlie_boys_2016]. Mientras que estudios anteriores solían indicar que los niños tenían ventaja en cuanto a habilidades digitales, investigaciones más recientes revelan que las brechas de género se están reduciendo o incluso invirtiendo, y que en algunos contextos las niñas superan a los niños en las evaluaciones de alfabetización digital [@caponera_exploring_2025; @heldt_relationship_2020].
+
+El nivel socioeconómico ha sido históricamente comprendido como un determinante en el logro de resultados de estudiantes [@cervini_desigualdades_2002; @chaparrocasolopez_familia_2016]. Hay posturas que defienden la educación como el principal motor de generación de oportunidades y movilidad social [@collins_sociedad_1989], pero también la contraparte que señala las escuelas como meros sistemas de reproducción social que perpetúan las desigualdades de base de los jóvenes [@bourdieu_herederos_2009]. El contexto digital no es la excepción, pues investigaciones empíricas han demostrado la diferencia en puntajes de alfabetización digital cuando el contexto socioeconómico del estudiante es tomado en cuenta, en donde aquellos con mejores condiciones tienen desempeños más destacados que sus pares [@heldt_relationship_2020; @aesaert_information_2018]. 
+
+La autoeficacia digital es otro concepto ampliamente reconocido como un indicador clave de la alfabetización digital de los estudiantes, entendido como la autopercepción del individuo sobre su propio desempeño en alguna actividad específica [@bandura_selfefficacy_1982a]. Los estudiantes que creen en su capacidad para utilizar eficazmente las tecnologías digitales son más propensos a utilizar herramientas digitales, explorar nuevas aplicaciones y persistir en la superación de retos [@tsai_junior_2010]. Una mayor autoeficacia digital se asocia con una mayor confianza en la navegación por entornos en línea, lo que se traduce en una mejora de las habilidades digitales y los resultados del aprendizaje [@hatlevik_digital_2015]. Por lo tanto, la autoeficacia digital se presenta como un mecanismo importante a través del cual los entornos educativos pueden ayudar a salvar las brechas de habilidades digitales.
+
+## Nivel país
+
+Las diferencias entre países en materia de alfabetización digital están determinadas por una serie de factores a nivel nacional, especialmente por indicadores socioeconómicos tales como el producto interno bruto (PIB) per cápita. Los países con PIB más elevado tienden a ofrecer un mejor acceso a los recursos digitales, tanto en el hogar como en las escuelas, lo que facilita la adquisición de competencias digitales entre los estudiantes [@gerick_schoollevel_2017]. Además, la prosperidad económica permite una mayor inversión en tecnología educativa, formación del profesorado y entornos de aprendizaje digital, lo que contribuye a obtener puntuaciones medias más altas en alfabetización digital [@scherer_gender_2023].
+
+El estado y los gobiernos han sufrido una reconfiguración de su organización gracias a los procesos de digitalización. Los estados de bienestar han debido reinventar su funcionamiento a propósito de la emergencia de las plataformas online, lo que ha ayudado a promover nuevas oportunidades laborales, así como se han ampliado las modalidades para realizar trámites [@busemeyer_digitalization_2022]. Al respecto, los países con una infraestructura digital avanzada ofrecen oportunidades más equitativas para que los estudiantes desarrollen competencias digitales, mientras que aquellos con una infraestructura limitada pueden agravar las desigualdades existentes [@fraillon_preparing_2020]. 
+
+## Interacción entre niveles
+
+Las condiciones socioeconómicas de un país pueden moderar la relación entre el puntaje de alfabetización digital y el nivel socioeconómico de los estudiantes. Los países más ricos, sobre todo en Europa, suelen ser también más igualitarios en términos económicos y, al mismo tiempo, tener puntajes de alfabetización digital sobre el promedio [@fraillon_icils_2024]. En esta lógica, se esperaría que en los países económicamente desventajados, las disparidades en el puntaje de alfabetización digital sean exacerbadas por el nivel socioeconómico de los estudiantes. 
+
+## Objetivo e hipótesis
+
+**Objetivo general**: Analizar los principales determinantes individuales y contextuales de la alfabetización digital en estudiantes al año 2023 y cómo se diferencian entre países
+
+**Hipótesis de nivel 1**
+
+$H_1$: Las mujeres tendrán mayor puntaje de alfabetización digital que los hombres
+
+$H_2$: El nivel socioeconómico se asociará positivamente con la alfabetización digital
+
+$H_3$: A mayor nivel de autoeficacia digital del estudiante,
+mayor será su puntaje en alfabetización digital 
+
+**Hipótesis de nivel 2**
+
+$H_4$: Pertenecer a un país con mayor índice de administración digital tiene
+un efecto positivo sobre la alfabetización digital de los estudiantes
+
+$H_5$: A mayor PIB per cápita, los estudiantes tendrán
+un puntaje más alto de alfabetización digital
+
+**Hipótesis de interacción**
+
+$H_6$ El efecto positivo del nivel socioeconómico sobre la alfabetización digital es más intenso en países con menor PIB per cápita
+
+# Datos, variables y métodos
+
+Para dar una respuesta plausible a la pregunta de investigación, el
+presente estudio se sirve de la base de datos del último ciclo del
+[International Computer and Information Literacy
+Study](https://www.iea.nl/studies/iea/icils/2023) (ICILS) llevado a cabo
+el año 2023, aplicada en 35 países (N = 135615). Esta base, además de aplicar encuestas de caracterización, realiza una prueba práctica estandarizada para cumplir con la medición
+de la alfabetización digital. En este caso, se van a utilizar las bases
+de datos de estudiantes, la cual, después de haber sido procesada tiene
+N = 104991 anidados en 31 países. El diseño muestral es complejo por
+conglomerados multietápicos. Por último, es pertinente mencionar que la
+unidad de análisis son los estudiantes correspondientes al octavo año de
+escolarización.
+
+A modo auxiliar, para incluir datos a nivel país se utilizaron las bases de datos Quality of Government y la del Banco Mundial. 
+
+## Variables
+
+```{r}
+#| echo: false 
+
+rm(list=ls())     
+options(scipen=999)
+```
+
+```{r}
+#| echo: false
+
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE, include = TRUE, warning = FALSE, message = FALSE)
+
+table_format <- if(is_html_output()) {
+  "html"
+} else if(is_latex_output()) {
+  "latex"
+}
+table_format2 <- if(is_html_output()) {
+  T
+} else if(is_latex_output()) {
+  F
+}
+
+options(kableExtra.html.bsTable = T)
+options(knitr.kable.NA = "")
+```
+
+```{r}
+#| echo: false 
+
+pacman::p_load(lme4, reghelper, haven, stargazer, ggplot2, texreg, dplyr,
+               foreign, lattice, sjPlot, sjlabelled, skimr, influence.ME,
+               patchwork, kableExtra, xtable)
+library(ggeffects)
+```
+
+```{r}
+#| echo: false 
+
+icils_final <- readRDS("input/data/proc_data/icils_final.rds")
+```
+
+```{r}
+#| label: Base sin NA
+#| echo: false 
+
+icils <- icils_final %>%
+  na.omit()
+```
+
+```{r}
+#| label: creación de variable logaritmo de pib
+#| echo: false
+
+icils$logpib <- log(icils$pib)
+```
+
+```{r}
+#| label: Agregar labels a las variables
+#| echo: false 
+
+icils$sexo <- set_label(icils$sexo, "Sexo de estudiante")
+icils$expcompu <- set_label(icils$expcompu, "Experiencia con computador en años")
+icils$aprendizaje_escuela <- set_label(icils$aprendizaje_escuela, "Tareas relacionadas al aprendizaje online en la escuela")
+icils$autoeffgen <- set_label(icils$autoeffgen, "Autoeficacia digital general del estudiante")
+icils$iiseb <- set_label(icils$iiseb, "Índice Socioeconómico Internacional")
+icils$alf_digital <- set_label(icils$alf_digital, "Puntaje de alfabetización digital")
+```
+
+```{r}
+#| label: Base agregada 
+#| echo: false 
+
+icils_lvl_2 <- icils %>% group_by(CNTRY) %>% summarise_all(funs(mean))
+
+icils_lvl_2$adm_digital <- set_label(icils_lvl_2$adm_digital, "Administración digital")
+icils_lvl_2$pib <- set_label(icils_lvl_2$pib, "Producto Interno Bruto per cápita")
+icils_lvl_2$logpib <- set_label(icils_lvl_2$logpib, "Logaritmo de PIB")
+```
+
+**Variable dependiente**
+
+Alfabetización digital: La variable dependiente de este
+estudio es el logro de alfabetización digital medido a través de una
+prueba compuesta por cuatro módulos, de los cuales los estudiantes sólo
+respondieron dos seleccionados de manera aleatoria. La variable puede
+tomar 5 valores plausibles a partir del puntaje logrado por los
+estudiantes: Bajo del nivel 1 (menos de 407 puntos), Nivel 1 (desde 407
+hasta 491 puntos), Nivel 2 (desde 492 hasta 576 puntos), Nivel 3 (desde
+557 hasta 661 puntos) y el Nivel 4 (sobre 661 puntos).
+
+**Variables nivel 1**
+
+Sexo: Esta variable puede tener dos valores: 0 para hombre y 1
+para mujer.
+
+Autoeficacia: Para medir la autoeficacia, se
+emplearon dos dimensiones: autoeficacia relacionada al uso general de
+aplicaciones y autoeficacia relacionada al uso especializado de
+aplicaciones. Cada una de ellas es un índice construido a partir de
+distintos enunciados relacionados a la autopercepción del estudiante
+respecto a qué tan bien puede desempeñar una labor usando TIC. Ambas
+autoeficacias poseen cuatro categorías de respuesta: (1) Muy bien; (2)
+Moderadamente bien; (3) Nunca he hecho esto, pero podría descubrir cómo
+hacerlo; (4) No creo que pueda hacer esto.
+
+Índice socioeconómico: Mide el nivel socioecómico del estudiante a partir del estatus ocupacional más alto de los padres, el nivel educativo más alto de los padres y el número de libros en casa.
+
+Experiencia con computador en años (expcompu): Mide la cantidad de años
+de experiencia que posee un estudiante con computador a través de cinco
+categorías de respuesta. (0) Nunca o menos de un año; (1) Al menos un
+año pero menos que tres; (2) Al menos tres años pero menos que cinco;
+(3) Al menos cinco años pero menos que siete; (4) Siete años o más.
+
+Tareas relacionadas al aprendizaje online en la escuela: Es una variable construida a partir de una serie de indicadores que refieren a si el estudiante realizó la respectiva actividad en su escuela.
+
+Cabe precisar que tanto Experiencia con computador en años como Tareas relacionadas al aprendizaje online en la escuela serán utilizadas como variables de control. 
+
+```{r}
+#| tbl-cap: "Variables nivel 1"
+#| tbl-cap-location: bottom
+#| label: tbl-descr1
+#| echo: false 
+
+icils %>%  select(alf_digital, aprendizaje_escuela, autoeffgen, sexo, expcompu,
+                  iiseb) %>% 
+  haven::zap_labels() %>%
+  sjmisc::descr(.,
+      show = c("label","range", "mean", "sd", "NA.prc", "n", "min", "max"))%>%
+      kable(., digits =2, "markdown") %>%
+  kable_styling(font_size = 22)
+```
+
+
+**Variables nivel 2**
+
+Gobernanza digital: Es una media ponderada de puntajes
+normalizados extraído de Quality of Government, el cual está construido
+a partir de un índice de servicios online, un índice del estado de
+desarrollo de infraestructura en telecomunicaciones y un índice de
+capital humano. Sus valores van del 0 al 1, donde los valores más
+cercanos al 1 significan mayor capacidad de gobernanza digital.
+
+PIB per cápita: Es un indicador que representa el valor promedio de bienes y servicios producidos por cada persona en un país o territorio durante un período determinado. Se calcula dividiendo el PIB total de un país por la cantidad total de habitantes. Está expresado en dólares. 
+
+Logaritmo del PIB: Es la misma variable de PIB per cápita pero calculando su logaritmo, pues esto permite que se ajusten los pesos del valor para cada país, facilitando su interpretación. 
+
+```{r}
+#| tbl-cap: "Variables nivel 2"
+#| tbl-cap-location: bottom
+#| label: tbl-descr2
+#| echo: false 
+
+icils_lvl_2 %>%  select(adm_digital, logpib, pib) %>% 
+  haven::zap_labels() %>%
+  sjmisc::descr(.,
+      show = c("label","range", "mean", "sd", "NA.prc", "n", "min", "max"))%>%
+      kable(., digits =2, "markdown") %>%
+  kable_styling(font_size = 26)
+```
+
+## Métodos 
+
+Para esta investigación se pretende emplear modelos multinivel
+para realizar un análisis comparado entre los distintos países que
+conforman el estudio. Una de las razones por las que se opta este método
+es debido a la capacidad de estudiar estructuras de datos jerárquicos de
+la población [@hox_multilevel_2017]. De esta manera, los modelos multinivel
+permiten complejizar los análisis en tanto pueden ayudar a comprender
+relaciones entre variables de tipo individual con variables de tipo
+contextual. Esta técnica de análisis generalmente se utiliza
+para observar datos anidados, por lo cual se estima ideal para el
+desarrollo de este trabajo en tanto se estudiarán datos de estudiantes
+que se hallan dentro de países.
+
+Los modelos serán reportados en el siguiente orden:
+
+**1) Modelo nulo**
+
+$$\text{alf\_digital}_{ij} = \gamma_{00} + \mu_{0j} + r_{ij}$$
+**2) Modelo con predictores individuales**
+
+$$
+\begin{multline}
+\text{alf\_digital}_{ij} = \gamma_{00} + \gamma_{10} \text{sexo}_{ij} + \gamma_{20} \text{iiseb}_{ij} + \gamma_{30} \text{expcompu}_{ij} + \gamma_{40} \text{autoeffgen}_{ij} \\
++ \gamma_{50} \text{aprendizaje\_escuela}_{ij} + \mu_{0j} + r_{ij}
+\end{multline}
+$$
+**3) Modelo con predictores grupales**
+
+$$\text{alf\_digital}_{ij} = \gamma_{01} \text{adm\_digital}_{ij} + \gamma_{02} \text{logpib}_{ij} + \mu_{0j} + r_{ij}$$
+**4) Modelo con predictores individuales y grupales**
+
+$$
+\begin{multline}
+\text{alf\_digital}_{ij} = \gamma_{00} + \gamma_{10} \text{sexo}_{ij} + \gamma_{20} \text{iiseb}_{ij} + \gamma_{30} \text{expcompu}_{ij} + \gamma_{40} \text{autoeffgen}_{ij} \\ 
++ \gamma_{50} \text{aprendizaje\_escuela}_{ij} + \gamma_{01} \text{adm\_digital}_{ij} + \gamma_{02} \text{logpib}_{ij} + \mu_{0j} + r_{ij}
+\end{multline}
+$$
+
+**5) Modelo con pendiente aleatoria**
+
+$$\text{alf\_digital}_{ij} = \gamma_{00} + \gamma_{20} \text{iiseb}_{ij} + \gamma_{02} \text{logpib}_{ij} + \mu_{1j}\text{iiseb}_{ij} + \mu_{0j} + r_{ij}$$
+
+**6) Interacción entre niveles**
+
+$$\text{alf\_digital}_{ij} = \gamma_{00} +  \gamma_{20} \text{iiseb}_{ij} + \gamma_{02} \text{logpib}_{ij} + \gamma_{11}\text{iiseb}_{ij} \text{logpib}_{ij} + \mu_{1j}\text{iiseb}_{ij} + \mu_{0j} + r_{ij}$$
+
+# Resultados
+
+## Descriptivos
+
+```{r}
+#| label: fig-scarlogpib
+#| fig-cap: Correlación alfabetización digital y PIB(log) (r = 0.66)
+#| fig-cap-location: bottom
+
+scatter <- icils %>% group_by(CNTRY) %>% select(alf_digital, adm_digital, logpib, pib) %>%   na.omit() %>% 
+  summarise_all(mean) # base para visualizar el scatterplot
+
+cor(scatter$alf_digital, scatter$logpib) # calcular correlación 
+
+sjPlot::plot_scatter(scatter, logpib, alf_digital,
+            dot.labels = to_label(scatter$CNTRY),
+            fit.line = "lm",
+            show.ci = TRUE,
+            axis.titles = c("Producto Interno Bruto per cápita (log)",
+            "Alfabetización digital"),
+            colors = "#7b241c"
+            )
+```
+
+En @fig-scarlogpib se observa la correlación entre alfabetización digital y el logaritmo de PIB per cápita. La correlación entre ambas variables es positiva y con un efecto fuerte. En general, los países se ven dipersos conforme a la recta, lo que significa que a mayor PIB per cápita, mayor alfabetización digital. Aun así, es interesante observar casos como los de Korea y República Checa, que son los dos países que tienen el promedio de alfabetización digital más alto pero no son aquellos con el mayor PIB per cápita. 
+
+```{r}
+#| label: fig-scaradm
+#| fig-cap: Correlación alfabetización digital y administración digital (r = 0.56)
+#| fig-cap-location: bottom
+
+cor(scatter$alf_digital, scatter$adm_digital)
+
+sjPlot::plot_scatter(scatter, adm_digital, alf_digital,
+            dot.labels = to_label(scatter$CNTRY),
+            fit.line = "lm",
+            show.ci = TRUE,
+            axis.titles = c("Administración digital",
+            "Alfabetización digital"),
+            colors = "#7b241c"
+            )
+```
+
+@fig-scaradm Representa la correlación entre alfabetización digital y administración digital, la cual tiene un efecto positivo y moderado. Se puede apreciar que la mayoría de los países se concentran entre el 0.8 y 0.9, lo cual es bastante alto tomando en cuenta que el índice va desde 0 a 1. Llama la atención Dinamarca que, si bien su puntaje de administración digital es 0.98, siendo el país que puntúa más alto, en el gráfico se muestra sobrepasando el valor 1. En segundo lugar está Korea, lo cual es consistente con el resultado de la correlación.  
+
+## Modelos
+
+```{r}
+#| label: Centrado de variables
+#| include: false  
+
+icils_c <- icils %>% 
+    group_by(CNTRY) %>% 
+    mutate(sexo.cmc = sexo-mean(sexo),
+           expcompu.cmc = expcompu-mean(expcompu),
+           aprendizaje_escuela.cmc = aprendizaje_escuela-mean(aprendizaje_escuela),
+           autoeffgen.cmc = autoeffgen-mean(autoeffgen),
+           iiseb.cmc = iiseb-mean(iiseb))%>% 
+    ungroup()
+```
+
+```{r}
+#| echo: false 
+
+icils_c$sexo.cmc <- set_label(icils_c$sexo.cmc, "Sexo de estudiante")
+icils_c$expcompu.cmc <- set_label(icils_c$expcompu.cmc, "Experiencia con computador en años")
+icils_c$aprendizaje_escuela.cmc <- set_label(icils_c$aprendizaje_escuela.cmc, "Tareas relacionadas al aprendizaje online en la escuela")
+icils_c$autoeffgen.cmc <- set_label(icils_c$autoeffgen.cmc, "Autoeficacia digital general del estudiante")
+icils_c$iiseb.cmc <- set_label(icils_c$iiseb.cmc, "Índice Socioeconómico Internacional")
+icils_c$adm_digital <- set_label(icils_c$adm_digital, "Administración digital")
+icils_c$logpib <- set_label(icils_c$logpib, "PIB per cápita(log)")
+```
+
+El reporte de los modelos será presentado en el mismo orden de la formalización de las ecuaciones. En orden de precisar las estimaciones de los modelos, las variables de nivel individual fueron centradas al grupo (CMC). 
+
+```{r}
+#| caption: Modelo nulo
+#| include: false 
+
+results = lmer(alf_digital ~ 1 + (1 | CNTRY), data = icils_c)
+reghelper::ICC(results)
+```
+
+```{r}
+#| caption: Modelo variables nivel 1
+#| include: false 
+
+results_1 = lmer(alf_digital ~ 1 + sexo.cmc + iiseb.cmc + expcompu.cmc + autoeffgen.cmc + aprendizaje_escuela.cmc + (1 | CNTRY), data = icils_c)
+screenreg(results_1, naive=TRUE)
+```
+
+```{r}
+#| caption: Modelo solo adm digital
+#| include: false 
+
+results_2 = lmer(alf_digital ~ 1 + adm_digital + (1 | CNTRY), data = icils_c)
+```
+
+
+```{r}
+#| caption: Modelo variables nivel 2
+#| include: false
+
+results_3 = lmer(alf_digital ~ 1 + logpib + adm_digital + (1 | CNTRY), data = icils_c)
+screenreg(results_3)
+```
+
+```{r}
+#| caption: Modelo completo
+#| include: false 
+
+results_4 = lmer(alf_digital ~ 1 + sexo.cmc + iiseb.cmc + expcompu.cmc +
+                 autoeffgen.cmc + aprendizaje_escuela.cmc + logpib + 
+                 adm_digital + (1 | CNTRY), data = icils_c)
+screenreg(results_4)
+```
+
+```{r}
+#| caption: Pendiente aleatoria
+#| include: false 
+
+reg_1 <- lmer(alf_digital ~ 1 + iiseb.cmc + logpib + (1 | CNTRY), data = icils_c)
+
+reg_random <- lmer(alf_digital ~ 1 + iiseb.cmc + logpib + (1 + iiseb | CNTRY), data = icils_c)
+```
+
+```{r}
+#| caption: interacción
+#| include: false
+
+interact <- lmer(alf_digital ~ 1 + iiseb.cmc*logpib + (1 + iiseb.cmc | CNTRY), 
+                 data = icils_c, REML = FALSE)
+```
+
+
+<div style="overflow-x: auto; width: 100%;">
+```{r}
+#| label: tbl-models
+#| tbl-cap: Modelos 
+#| echo: false 
+
+tab_model(results, results_1, results_2, results_3, results_4, reg_random, interact, 
+  show.ci = FALSE, 
+  show.se = TRUE, 
+  collapse.se = TRUE,
+  show.p = FALSE,
+  file = NULL,
+  p.style = c("scientific_stars"),
+  dv.labels = c("Modelo nulo", "Variables nivel 1", "Administración digital", 
+                "Variables nivel 2", 
+                "Modelo completo", "Pendiente aleatoria", "Interacción entre niveles"),
+  CSS = list(css.table = "font-size: 20px;")
+)
+```
+</div> 
+
+### **Modelo nulo** {.unnumbered}
+
+El primer modelo estimado fue el modelo nulo, puesto que permite calcular el ICC y determinar si es pertinente usar modelamiento multinivel en el análisis. A partir de $\tau_{00}$ / $\tau_{00}$ + $\sigma^2$ el ICC dio 0.21, lo que significa que el 21% de la varianza de la alfabetización digital se debe a la pertenencia a países. Este resultado es significativo, por lo que se justifica la aplicación de modelos multinivel para indagar en las diferencias de alfabetización digital de estudiantes anidados en países. 
+
+### **Modelo con predictores individuales** {.unnumbered}
+
+El segundo modelo de @tbl-models es el que contiene los predictores de nivel uno. Este modelo sirve para contrastar las hipótesis $H_1$, $H_2$ y $H_3$ que serán discutidas más adelante. 
+
+Todas las variables son estadísticamente significativas, por lo que de momento no se puede descartar ninguna hipótesis, pues todas aportan en la predicción de la alfabetización digital. 
+
+Respecto a los coeficientes, considerando que todos los estudiantes tienen la misma experiencia en computadores en años, y todos realizan las mismas tareas con TIC en la escuela, las mujeres puntúan en promedio 15.18 más alto que los hombres. Tener un punto adicional en nivel socioeconómico aumenta el puntaje de alfabetización digital en 26.06. Por último, cada unidad adicional en autoeficacia digital aumenta un 0.33 la alfabetización digital de los estudiantes. 
+
+Se puede apreciar que todos los efectos son positivos, y tanto sexo como nivel socioeconómico tienen efectos bastante grandes en comparación con el de autoeficacia digital.
+
+En cuanto a los efectos aleatorios, se observa que, en comparación al modelo nulo, $\sigma^2$ pasa de 6592.96 a 5654.32, por lo que se puede asumir que el modelo con predictores individuales permite capturar parte de la variabilidad existente dentro de los países. 
+
+### **Modelo con predictores grupales** {.unnumbered}
+
+El tercer y cuarto modelo expuesto en @tbl-models contienen los predictores grupales. El primero de estos dos modelos solamente considera la variable de administración digital y no fue especificado en las ecuaciones previas, pero esto se debe a que fue estimado solamente para efectos ilustrativos, pues ocurre algo interesante entre las variables a nivel país. 
+
+Al ingresar administración digital a un modelo, se ve que es estadísticamente significativa con un efecto muy grande, lo cual señala que, un país con la mejor calidad en administración digital tendría 306.91 puntos adicionales en alfabetización digital en comparación a un país con la más precaria administración digital. 
+
+Sin embargo, al ingresar PIB per cápita (expresado en su lograritmo) al modelo, la administración digital pierde toda su significancia, y su efecto disminuye considerablemente a 68.20. En paralelo, el PIB es significativo pero moderadamente, donde por cada mil dólares adicionales, la alfabetización digital aumenta en 35.12. Este resultado llama bastante la atención, pero se puede comprender por la parcialización de las variables al momento de estimarse la regresión,  entendiéndose que el efecto del PIB per cápita predomina por sobre el de la administración digital al predecir la alfabetización digital. 
+
+En relación a los efectos aleatorios, se aprecia una disminución del $\tau_{00}$ a 1048.34, cuyo resultado indica que parte de las diferencias entre países se explica por el PIB per cápita. 
+
+### **Modelo completo** {.unnumbered}
+
+Este modelo incluye tanto los predictores individuales como los grupales, por lo que se pueden contrastar las cinco hipótesis planteadas anteriormente solamente analizando este modelo. 
+
+Se observa que todos los coeficientes mantienen sus valores al igual que sus efectos significativos. 
+
+Algo llamativo es el incremento, pero muy leve, de $\tau_{00}$ a 1048.60. 
+
+### **Modelo pendiente aleatoria** {.unnumbered}
+
+```{r}
+#| label: Devianza 
+
+reg_1 <- lmer(alf_digital ~ 1 + iiseb.cmc + logpib + (1 | CNTRY), data = icils_c)
+anova(reg_1, reg_random)
+```
+
+El modelo con pendiente aleatoria para nivel socioeconómico pretende averiguar si esta variable varía entre países. Calculando un test de devianza entre el modelo con pendiente fija y aleatoria, resultó que el modelo con pendiente aleatoria ajusta significativamente mejor que el otro, presentando un $\chi^2$ = 289.84, por lo que se comprueba que el efecto del nivel socioeconómico en la alfabetización digital no es el mismo entre países. 
+
+$\tau_{11}$ = 26.12 respalda que el efecto del nivel socioeconómico no es el mismo para todos los países. Por su parte, $\rho_{01}$ = -0.24 indica que, en países con menor alfabetización digital, el efecto del nivel socioeconómico es más fuerte. 
+
+```{r}
+graf2 <- ggpredict(
+  reg_random, 
+  terms = c("iiseb", "CNTRY [CHL, URY, ROU, AZE, GRC, FIN]"), 
+  type = "random"
+)
+plot(graf2)
+```
+
+Este gráfico corresponde a la aleatorización de las pendientes de nivel socioeconómico. En primer lugar, se observa que las pendientes difieren unas entre otras, por lo que añadir efectos aleatorios es una decisión acertada. Los dos países latinoamericanos que participan en el estudio, Uruguay y Chile, tienen una pendiente positiva bastante similar. Por otro lado, la pendiente de Rumanía es bastante alta, lo que significa que el efecto de nivel socioeconómico sobre la alfabetización digital en ese país es fuerte. 
+
+### **Modelo interacción entre niveles** {.unnumbered}
+
+```{r}
+#| label: fig-interaction
+#| echo: false 
+#| fig-cap: Interacción entre índice socioeconómico y alfabetización digital
+#| fig-cap-location: bottom
+
+plot_model(interact, type = "int")
+```
+
+A pesar de mantenerse con coeficientes significativos, al momento de graficar la interacción, en @fig-interaction las dos pendientes no se intersectan, lo que quiere decir que no se ha encontrado una interacción entre nivel socioeconómico y PIB per cápita para predecir la alfabetización digital. 
+
+## Ajuste
+
+Respecto al ajuste de los modelos, se puede ver que, en el modelo de variables individuales, el $r^2$ condicional es mayor al $r^2$ marginal (0.332 > 0.112), lo que quiere decir que el modelo con efectos aleatorios posee una mayor capacidad explicativa que el modelo con efectos fijos. El modelo con solamente variables contextuales también tiene un mejor ajuste en el $r^2$ condicional, respaldando la estimación de un modelo con efectos aleatorios. El resultado más llamativo es el ajuste del modelo completo, en donde el $r^2$ condicional, si bien es mejor que su $r^2$ marginal (0.314 > 0.187), es más bajo que el $r^2$ condicional del modelo con variables individuales. No obstante, esto no quiere decir necesariamente que el modelo con variables nivel 1 tenga mayor capacidad explicativa que el modelo completo, pero habría que entrar a escarbar de manera minuciosa para comprender a cabalidad la razón de este resultado. 
+
+## Casos influyentes
+
+Para analizar la existencia de casos influyentes, se estimó la distancia de Cook a partir del modelo completo, de la cual resultó un cutoff de 0.13, entendiéndose que todos los países sobre ese umbral podrían ser casos que están modificando sustancialmente las estimaciones de los modelos. 
+
+```{r}
+#| echo: false
+
+cases <- influence(results_4, "CNTRY")
+
+cooks.distance(cases, sort = TRUE)
+4/31
+
+plot(cases, which = 4)
+```
+
+```{r}
+#| label: fig-cook
+#| echo: false 
+#| fig-cap: Distancia de Cook
+#| fig-cap-location: bottom
+
+plot(cases, which = "cook",
+     cutoff = .13, sort = TRUE,
+     xlab = "Cooks distance",
+     ylab = "Countries")
+```
+
+@fig-cook grafica los países que son considerados como casos influyentes con rojo, mientras que los azules significa que no están interfiriendo en las estimaciones. Como se observa, más de la mitad de los países están por sobre 0.13, lo cual podría ser peligroso para el análisis pues, en algún caso, se podría decidir eliminar todos los países en rojo. No obstante, calculando la significancia de los casos, ninguno resultó como significante, por lo que se puede interpretar que no se puede asumir que los países en rojo sean casos influyentes. 
+
+# Discusión 
+
+En relación a las hipótesis de carácter individual, hay evidencia a favor de $H_1$, señalando que las mujeres tienen puntajes más altos en alfabetización digital en comparación a sus contrapartes. Este resultado se condice con la literatura actual, cuyo argumento central radica en que las mujeres se hallan a la vanguardia del logro académico, revirtiendo un panorama históricamente a favor de su contraparte masculina. Este hallazgo hay que considerarlo pero con suma precaucion, pues no debe interpretarse como el punto culmine de las desigualdades de género. En suma, no significa que el estigma sobre las mujeres en este campo se haya desmantelado, pero al menos se está avanzando en algunas materias en orden de equilibrar esta balanza social en lo que respecta al género
+
+De la misma manera, el nivel socioeconómico ($H_2$) es significativa, por tanto,  tener un alto nivel socioeconómico se relaciona a un alto puntaje en alfabetización digital. Este efecto se entronca en la narrativa general de cómo el desempeño académico se ve predicho por los antecedentes socioeconomicos del estudiante. Esto resulta desalentador, pues se esperaría que con las condiciones actuales (disponibilidad de tecnologías de alto rendimiento) este efecto se mitigara, pero probablemente las escuelas aun no son o, en el peor de los casos, no serán capaces de ofrecer alternativas para sortear las desigualdades economicas de base de los estudiantes. Este resultado respalda la escuela en una lógica reproduccionista, pues el nivel socioeconómico es lo que regirá los resultados, reduciendo el margen de la agencia y/o talento de los estudiantes más desfavorecidos económicamente hablando. 
+
+La autoeficacia digital ($H_3$) no puede ser rechazada pues es significativa y mantiene la direccionalidad sugerida en las hipótesis, por lo tanto, tener alta autoeficacia digital se relaciona a un mayor puntaje en alfabetización digital. Es sumamente interesante el resultado de esta hipótesis, pues releva la consideración de factores psicosociales en el logro académico en el contexto digital. Si bien es importante preparar a los estudiantes para que manejen los conocimientos prácticos y puedan tener un desempeño destacable, la valorización hacia uno mismo y sus capacidades juega un papel igual de notable. Por ello, hay que fomentar tanto el perfeccionamiento de las habilidades como el forjamiento de un autoestima sólido en los estudiantes, para que, de esta forma, puedan explotar sus capacidades sin restringirse. 
+
+En cuanto a las hipótesis de nivel país, la administración digital ($H_4$) no tiene sustento empírico, pues no es significativo, por lo que se puede deducir que el hecho de que un país tenga alta o baja administración digital, no influirá en la alfabetización digital de sus estudiantes. 
+
+El PIB per cápita ($H_5$) muestra que es significativo y posee un efecto positivo en la alfabetización digital, por lo que países con mayor riqueza tenderán a resultados más altos en este campo. 
+
+A partir de las dos últimas hipótesis se puede deducir que, la masterización de habilidades digitales, más que deberse a un país con infraestructura tecnológica eficiente, se atribuye a las condiciones que permite generar la riqueza del país, es decir, la capacidad de una administración digital a nivel gubernamental se subsume al entramado que un país puede configurar a partir de las condiciones económicas propias. En este sentido, la gobernanza digital es contenida en este entramado, el cual podría además abordar elementos de la esfera social, política y cultural, pero hace falta evidencia para entregar un diagnóstico más claro. 
+
+
+
+# Conclusiones
+
+Esta investigación tenía como objetivo analizar los factores individuales y contextuales a nivel país de la alfabetización digital en estudiantes. Respondiendo a la pregunta planteada al inicio, dentro de los hallazgos más importantes se encuentra la evidencia empírica de que sexo y nivel socioeconómico a nivel individual determinan la alfabetización digital de los estudiantes. A partir de la pendiente aleatoria, se pudo deducir que el efecto de nivel socioeconómico es distinto dependiendo del país, lo que también justifica de gran manera la utilización de modelamiento multinivel. El hallazgo más interesante fue la parcialización de administración digital y PIB per cápita, en donde el PIB terminó restándole toda la significancia previa que tenía la gobernanza digital. Este hallazgo permitió concluir que
+la riqueza de un país es lo que determina las habilidades y conocimientos digitales, independientemente de qué tanta infraestructura digital posea el país en términos de administración. Asimismo, estos resultados abrieron otras interrogantes como ¿qué determina el PIB para haber mitigado todo el efecto de administración digital? Sería interesante seguir trabajando en esta línea, con tal de profundizar en la comprensión de los factores a nivel país que influyen en la alfabetización digital de los estudiantes. 
+
+Para cerrar, se señalan algunas limitantes del estudio, como el hecho de que se habla educación pero no se consideran las escuelas como un nivel dentro del análisis, por lo que
+se pierde la posibilidad de capturar otras variables y efectos que serían útiles a considerar. Por otra parte, fue imposible encontrar variables de nivel 2 para todos los países debido a la naturaleza de ellos (como por ejemplo, la Alemania Westfalia-Norte). 
+
+# Anexo 
+
+### Significancia de la distancia de Cook
+```{r}
+sigtest(cases, test=-1.96)
+```

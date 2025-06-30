@@ -1,0 +1,5 @@
+"0","#| label: Base sin NA"
+"0","#| echo: false "
+"0",""
+"0","icils <- icils_final %>%"
+"0","  na.omit()"

@@ -1,0 +1,12 @@
+"0","#| tbl-cap: ""Variables nivel 2"""
+"0","#| tbl-cap-location: bottom"
+"0","#| label: tbl-descr2"
+"0",""
+"0","icils_lvl_2 %>%  select (adm_digital, pib) %>% "
+"0","  haven::zap_labels() %>%"
+"0","  sjmisc::descr(.,"
+"0","      show = c(""label"",""range"", ""mean"", ""sd"", ""NA.prc"", ""n"", ""min"", ""max""))%>%"
+"0","      kable(., digits =2, ""markdown"")"
+"2","Aviso: 'xfun::attr()' está en desuso.
+Utilizar 'xfun::attr2()' en su lugar.
+Ver help(""Deprecated"")"

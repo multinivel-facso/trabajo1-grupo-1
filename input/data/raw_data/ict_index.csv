@@ -1,0 +1,194 @@
+FREQ,FREQ_LABEL,REF_AREA,REF_AREA_LABEL,INDICATOR,INDICATOR_LABEL,UNIT_MEASURE,UNIT_MEASURE_LABEL,AGG_METHOD,AGG_METHOD_LABEL,DATABASE_ID,DATABASE_ID_LABEL,UNIT_MULT,UNIT_MULT_LABEL,OBS_STATUS,OBS_STATUS_LABEL,OBS_CONF,OBS_CONF_LABEL,2021,2023
+A,Annual,AFG,Afghanistan,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,3.240740741,5.092592593
+A,Annual,AGO,Angola,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,5.401234568,5.401234568
+A,Annual,ALB,Albania,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,17.28395062,18.67283951
+A,Annual,AND,Andorra,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,11.11111111,11.11111111
+A,Annual,ARE,United Arab Emirates,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,23.14814815,23.14814815
+A,Annual,ARG,Argentina,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,16.66666667,24.07407407
+A,Annual,ARM,Armenia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,12.80864198,16.97530864
+A,Annual,ATG,Antigua and Barbuda,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,5.555555556,7.407407407
+A,Annual,AUS,Australia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,22.99,22.99382716
+A,Annual,AUT,Austria,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,17.90123457,23.45679012
+A,Annual,AZE,Azerbaijan,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,14.19753086,14.19753086
+A,Annual,BDI,Burundi,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,5.092592593,8.796296296
+A,Annual,BEL,Belgium,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,22.22222222,23.7654321
+A,Annual,BEN,Benin,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,17.4382716,20.37037037
+A,Annual,BFA,Burkina Faso,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,13.27160494,17.59259259
+A,Annual,BGD,Bangladesh,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,14.19753086,16.04938272
+A,Annual,BGR,Bulgaria,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,12.96296296,16.66666667
+A,Annual,BHR,Bahrain,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,15.74074074,15.74074074
+A,Annual,BHS,"Bahamas, The",ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,8.179012346,8.179012346
+A,Annual,BIH,Bosnia and Herzegovina,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,10.64814815,12.03703704
+A,Annual,BLR,Belarus,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,9.567901235,13.88888889
+A,Annual,BLZ,Belize,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,2.777777778,5.555555556
+A,Annual,BOL,Bolivia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,2.777777778,6.172839506
+A,Annual,BRA,Brazil,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,18.20987654,19.75308642
+A,Annual,BRB,Barbados,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,6.944444444,6.944444444
+A,Annual,BRN,Brunei Darussalam,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,8.796296296,19.44444444
+A,Annual,BTN,Bhutan,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,7.407407407,8.487654321
+A,Annual,BWA,Botswana,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,10.95679012,11.88271605
+A,Annual,CAF,Central African Republic,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,4.62962963,4.62962963
+A,Annual,CAN,Canada,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,26.08024691,26.08024691
+A,Annual,CHE,Switzerland,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,22.22222222,25.92592593
+A,Annual,CHL,Chile,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,23.61111111,23.61111111
+A,Annual,CHN,China,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,19.90740741,22.68518519
+A,Annual,CIV,Cote d'Ivoire,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,8.796296296,11.11111111
+A,Annual,CMR,Cameroon,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,8.024691358,12.03703704
+A,Annual,COD,"Congo, Dem. Rep.",ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,5.092592593,7.87037037
+A,Annual,COG,"Congo, Rep.",ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,10.18518519,13.88888889
+A,Annual,COL,Colombia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,23.14814815,24.07407407
+A,Annual,COM,Comoros,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,5.555555556,8.333333333
+A,Annual,CPV,Cabo Verde,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,11.57407407,16.66666667
+A,Annual,CRI,Costa Rica,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,23.45679012,25.61728395
+A,Annual,CUB,Cuba,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,6.481481481,11.11111111
+A,Annual,CYP,Cyprus,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,15.74074074,20.98765432
+A,Annual,CZE,Czechia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,20.37037037,23.14814815
+A,Annual,DEU,Germany,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,24.38271605,29.01234568
+A,Annual,DJI,Djibouti,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,3.240740741,3.240740741
+A,Annual,DMA,Dominica,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,5.555555556,5.555555556
+A,Annual,DNK,Denmark,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,21.91358025,21.91358025
+A,Annual,DOM,Dominican Republic,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,19.59876543,22.5308642
+A,Annual,DZA,Algeria,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,9.259259259,12.96296296
+A,Annual,ECU,Ecuador,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,11.11111111,11.57407407
+A,Annual,EGY,"Egypt, Arab Rep.",ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,20.21604938,21.14197531
+A,Annual,ERI,Eritrea,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,0.0,0.0
+A,Annual,ESP,Spain,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,23.14814815,23.7654321
+A,Annual,EST,Estonia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,21.3,23.14814815
+A,Annual,ETH,Ethiopia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,12.34567901,12.34567901
+A,Annual,FIN,Finland,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,25.61728395,26.54320988
+A,Annual,FJI,Fiji,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,11.11111111,11.11111111
+A,Annual,FRA,France,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,25.15432099,27.00617284
+A,Annual,FSM,"Micronesia, Fed. Sts.",ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,5.864197531,5.864197531
+A,Annual,GAB,Gabon,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,6.944444444,8.796296296
+A,Annual,GBR,United Kingdom,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,22.22222222,22.22222222
+A,Annual,GEO,Georgia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,7.407407407,12.03703704
+A,Annual,GHA,Ghana,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,15.74074074,19.44444444
+A,Annual,GIN,Guinea,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,7.407407407,7.87037037
+A,Annual,GMB,"Gambia, The",ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,6.944444444,8.333333333
+A,Annual,GNB,Guinea-Bissau,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,2.777777778,2.777777778
+A,Annual,GNQ,Equatorial Guinea,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,4.62962963,5.555555556
+A,Annual,GRC,Greece,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,17.59259259,20.0617284
+A,Annual,GRD,Grenada,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,7.716049383,7.716049383
+A,Annual,GTM,Guatemala,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,11.11111111,14.35185185
+A,Annual,GUY,Guyana,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,4.62962963,5.555555556
+A,Annual,HKG,"Hong Kong SAR, China",ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,10.49382716,10.49382716
+A,Annual,HND,Honduras,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,12.03703704,13.42592593
+A,Annual,HRV,Croatia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,21.60493827,21.60493827
+A,Annual,HTI,Haiti,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,5.555555556,6.481481481
+A,Annual,HUN,Hungary,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,20.37037037,21.75925926
+A,Annual,IDN,Indonesia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,17.74691358,22.68518519
+A,Annual,IND,India,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,26.38888889,26.38888889
+A,Annual,IRL,Ireland,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,20.37037037,23.61111111
+A,Annual,IRN,"Iran, Islamic Rep.",ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,15.12345679,18.05555556
+A,Annual,IRQ,Iraq,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,4.475308642,8.641975309
+A,Annual,ISL,Iceland,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,20.21604938,20.21604938
+A,Annual,ISR,Israel,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,22.83950617,23.91975309
+A,Annual,ITA,Italy,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,20.37037037,20.37037037
+A,Annual,JAM,Jamaica,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,11.11111111,11.11111111
+A,Annual,JOR,Jordan,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,14.19753086,14.19753086
+A,Annual,JPN,Japan,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,20.21604938,20.21604938
+A,Annual,KAZ,Kazakhstan,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,14.81481481,14.81481481
+A,Annual,KEN,Kenya,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,22.22222222,23.14814815
+A,Annual,KGZ,Kyrgyz Republic,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,9.567901235,9.567901235
+A,Annual,KHM,Cambodia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,7.716049383,14.35185185
+A,Annual,KIR,Kiribati,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,7.407407407,7.407407407
+A,Annual,KNA,St. Kitts and Nevis,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,1.851851852,1.851851852
+A,Annual,KOR,"Korea, Rep.",ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,24.53703704,24.53703704
+A,Annual,KWT,Kuwait,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,15.43209877,19.75308642
+A,Annual,LAO,Lao PDR,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,7.407407407,8.333333333
+A,Annual,LBN,Lebanon,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,5.555555556,6.481481481
+A,Annual,LBR,Liberia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,12.80864198,13.7345679
+A,Annual,LBY,Libya,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,0.925925926,0.925925926
+A,Annual,LCA,St. Lucia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,12.96296296,12.96296296
+A,Annual,LIE,Liechtenstein,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,18.20987654,19.13580247
+A,Annual,LKA,Sri Lanka,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,22.68518519,24.07407407
+A,Annual,LSO,Lesotho,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,7.407407407,7.407407407
+A,Annual,LTU,Lithuania,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,17.59259259,21.91358025
+A,Annual,LUX,Luxembourg,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,15.43209877,20.98765432
+A,Annual,LVA,Latvia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,17.59259259,19.44444444
+A,Annual,MAR,Morocco,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,14.81481481,15.27777778
+A,Annual,MCO,Monaco,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,6.944444444,6.944444444
+A,Annual,MDA,Moldova,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,14.81481481,16.04938272
+A,Annual,MDG,Madagascar,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,9.104938272,10.0308642
+A,Annual,MDV,Maldives,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,6.944444444,6.944444444
+A,Annual,MEX,Mexico,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,19.29012346,21.60493827
+A,Annual,MHL,Marshall Islands,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,5.555555556,5.555555556
+A,Annual,MKD,North Macedonia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,10.18518519,12.96296296
+A,Annual,MLI,Mali,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,11.57407407,12.5
+A,Annual,MLT,Malta,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,17.59259259,19.90740741
+A,Annual,MMR,Myanmar,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,0.925925926,8.796296296
+A,Annual,MNE,Montenegro,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,18.82716049,22.06790123
+A,Annual,MNG,Mongolia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,18.67283951,21.14197531
+A,Annual,MOZ,Mozambique,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,2.777777778,5.555555556
+A,Annual,MRT,Mauritania,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,13.88888889,15.27777778
+A,Annual,MUS,Mauritius,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,14.35185185,18.05555556
+A,Annual,MWI,Malawi,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,11.11111111,16.66666667
+A,Annual,MYS,Malaysia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,14.66049383,21.45061728
+A,Annual,NAM,Namibia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,6.481481481,8.333333333
+A,Annual,NER,Niger,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,10.80246914,12.19135802
+A,Annual,NGA,Nigeria,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,15.74074074,16.66666667
+A,Annual,NIC,Nicaragua,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,4.938271605,6.790123457
+A,Annual,NLD,Netherlands,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,22.22222222,22.22222222
+A,Annual,NOR,Norway,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,18.51851852,22.37654321
+A,Annual,NPL,Nepal,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,3.086419753,5.864197531
+A,Annual,NRU,Nauru,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,6.481481481,8.333333333
+A,Annual,NZL,New Zealand,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,25.15432099,26.08024691
+A,Annual,OMN,Oman,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,17.12962963,18.51851852
+A,Annual,PAK,Pakistan,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,22.06790123,22.5308642
+A,Annual,PAN,Panama,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,15.12345679,17.90123457
+A,Annual,PER,Peru,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,18.98148148,21.2962963
+A,Annual,PHL,Philippines,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,17.12962963,25.61728395
+A,Annual,PNG,Papua New Guinea,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,6.018518519,6.018518519
+A,Annual,POL,Poland,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,19.75308642,22.99382716
+A,Annual,PRT,Portugal,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,22.5308642,24.38271605
+A,Annual,PRY,Paraguay,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,11.72839506,14.04320988
+A,Annual,PSE,West Bank and Gaza,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,10.18518519,12.96296296
+A,Annual,QAT,Qatar,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,21.75925926,22.68518519
+A,Annual,ROU,Romania,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,15.74074074,18.05555556
+A,Annual,RUS,Russian Federation,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,21.75925926,23.61111111
+A,Annual,RWA,Rwanda,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,20.67901235,22.5308642
+A,Annual,SAU,Saudi Arabia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,23.45679012,24.84567901
+A,Annual,SDN,Sudan,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,10.49382716,16.51234568
+A,Annual,SEN,Senegal,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,16.66666667,19.44444444
+A,Annual,SGP,Singapore,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,22.37654321,24.38271605
+A,Annual,SLB,Solomon Islands,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,5.555555556,5.555555556
+A,Annual,SLE,Sierra Leone,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,6.481481481,8.333333333
+A,Annual,SLV,El Salvador,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,12.5,12.5
+A,Annual,SMR,San Marino,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,10.18518519,10.18518519
+A,Annual,SOM,Somalia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,4.320987654,4.320987654
+A,Annual,SRB,Serbia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,20.83333333,23.14814815
+A,Annual,SSD,South Sudan,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,5.555555556,5.555555556
+A,Annual,STP,Sao Tome and Principe,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,7.407407407,7.407407407
+A,Annual,SUR,Suriname,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,0.925925926,1.851851852
+A,Annual,SVK,Slovak Republic,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,20.0617284,24.22839506
+A,Annual,SVN,Slovenia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,20.67901235,25.46296296
+A,Annual,SWE,Sweden,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,22.22222222,25.92592593
+A,Annual,SWZ,Eswatini,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,12.80864198,14.66049383
+A,Annual,SYC,Seychelles,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,3.703703704,4.62962963
+A,Annual,SYR,Syrian Arab Republic,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,2.777777778,7.407407407
+A,Annual,TCD,Chad,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,10.0308642,11.88271605
+A,Annual,TGO,Togo,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,14.81481481,14.81481481
+A,Annual,THA,Thailand,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,18.05555556,18.98148148
+A,Annual,TJK,Tajikistan,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,7.098765432,8.024691358
+A,Annual,TKM,Turkmenistan,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,6.481481481,6.481481481
+A,Annual,TLS,Timor-Leste,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,2.777777778,5.555555556
+A,Annual,TON,Tonga,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,3.703703704,5.555555556
+A,Annual,TTO,Trinidad and Tobago,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,10.80246914,11.88271605
+A,Annual,TUN,Tunisia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,10.18518519,13.42592593
+A,Annual,TUR,Turkiye,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,20.98765432,22.99382716
+A,Annual,TUV,Tuvalu,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,0.462962963,0.462962963
+A,Annual,TZA,Tanzania,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,11.41975309,16.66666667
+A,Annual,UGA,Uganda,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,12.96296296,12.96296296
+A,Annual,UKR,Ukraine,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,10.18518519,12.96296296
+A,Annual,URY,Uruguay,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,25.0,26.38888889
+A,Annual,USA,United States,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,23.7654321,23.7654321
+A,Annual,UZB,Uzbekistan,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,9.259259259,15.74074074
+A,Annual,VCT,St. Vincent and the Grenadines,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,3.703703704,3.703703704
+A,Annual,VEN,"Venezuela, RB",ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,3.240740741,10.33950617
+A,Annual,VNM,Viet Nam,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,14.35185185,14.35185185
+A,Annual,VUT,Vanuatu,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,2.777777778,12.19135802
+A,Annual,WSM,Samoa,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,6.481481481,9.87654321
+A,Annual,YEM,"Yemen, Rep.",ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,2.777777778,2.777777778
+A,Annual,ZAF,South Africa,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,19.29012346,21.14197531
+A,Annual,ZMB,Zambia,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,13.27160494,16.04938272
+A,Annual,ZWE,Zimbabwe,ITU_ICT_G5_DIG_DEV,Digital Development Score (ITU G5),0_TO_100,0-100 scale,MEAN,Mean,ITU_ICT,ICT Regulatory Tracker,0,Units,A,Normal value,PU,Public,18.05555556,18.67283951

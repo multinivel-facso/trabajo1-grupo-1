@@ -1,0 +1,575 @@
+---
+title: "La alfabetización digital en escolares del mundo actual"
+subtitle: "Un estudio de sus determinantes mediante modelamiento multinivel"
+author: "Tomás Urzúa"
+date: today
+lang: es
+fontsize: 14pt
+format:
+  html:
+    code-fold: true
+    toc: true
+    toc-location: right
+    toc-depth: 2
+    toc-expand: 1
+    toc-title: Contenidos
+    number-sections: true
+    number-depth: 2
+    theme:
+      - minty
+      - multinivel.scss
+    code-link: true
+    title-block-banner: true
+editor_options: 
+  chunk_output_type: console
+bibliography: 
+  - input/bib/multinivel.bib
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Introducción
+
+Durante las últimas décadas las nuevas tecnologías se han expandido a un
+ritmo exponencial y vertiginoso, lo cual ha suscitado diversas
+interrogantes en torno a su presencia en la sociedad y, sobre todo, a
+los usos que se les dan a ellas. Efectivamente, en la actualidad la
+mayoría de las interacciones sociales se ven mediadas por la
+digitalidad, la cual ha logrado inscribirse en la cultura popular de las
+nuevas generaciones formando parte constitutiva de sus trayectorias
+[@buckingham_mas_2008]. En este contexto, la proliferación de las
+Tecnologías de Información y Comunicación juega un rol sumamente
+relevante para la sociedad en tanto han fomentado el mejoramiento en la
+calidad de vida humana, aportando en diversos campos como la salud, la
+educación, la banca, el transporte y la gobernanza digital
+[@reddy_student_2020; @nand_metaheuristic_2019; @sharma_smart_2018;
+@reddy_tablet_2017; @pojani_sustainable_2015; @sharma_use_2015]. No
+obstante, este tipo de tecnologías contienen una manera particular de
+comprensión y uso, por lo que hacerse de ellas exige los conocimientos y
+capacidades necesarias para desenvolverse en el mundo digital
+[@martin_digeulit_2006].
+
+Si bien, las TIC han aportado en diversos aspectos a la sociedad, su
+existencia también ha suscitado una suma de desafíos relacionados a cómo
+lograr que estas tecnologías alcancen una expansión en las regiones en
+su conjunto, sobre todo en los territorios más necesitados, esto con el
+objetivo de no generar una exclusión en torno a la tecnología en el
+período actual [@garcia_brecha_2004]. Desafortunadamente, la
+problemática de la exclusión en el ámbito tecnológico ya está
+experimentándose. Este fenómeno ha tomado el nombre de brecha digital,
+cuyo significado corresponde a la distancia que se produce entre los
+individuos y sociedades que pueden acceder y participar de la era de la
+información y los que no los tienen [@chen_global_2004].
+
+Uno de los problemas más perjudiciales de la brecha digital es que se
+piensa que su padecimiento implica la agudización de otras brechas,
+tales como la económica y la social [@camacho_brecha_2005]. En la misma
+línea, se ha planteado el surgimiento de una segunda brecha digital,
+asociada a las habilidades necesarias para relacionarse y operar de
+manera adecuada las TIC [@claro_impacto_2010]. Tales brechas se pueden
+presentar a nivel internacional, es decir, existen países que se
+encuentran mejor posicionados frente al malestar digital que otros, pero
+esta desigualdad también persiste al interior de los países, en donde
+ciertos grupos gozan de los beneficios que proporcionan estas
+tecnologías, mientras otros son relegados a quedar fuera del mundo
+digital, ya sea por condiciones materiales, conocimientos o, el peor de
+los casos, las dos en simultáneo [@silvera_alfabetizacion_2005].
+
+Además de las brechas digitales que se mencionaron anteriormente, El
+estado y los gobiernos también han sufrido una reconfiguración de su
+organización gracias a los procesos de digitalización
+[@busemeyer_digitalization_2022]. Los estados de bienestar han debido
+reinventar su funcionamiento a propósito de la emergencia de las
+plataformas online, lo que ha ayudado a promover nuevas oportunidades
+laborales, así como se han ampliado las modalidades para realizar
+trámites. Aun así, es de suma relevancia considerar las brechas
+digitales anteriormente mencionadas, puesto que el desarrollo
+tecnológico permea de distinta forma dependiendo de la región y/o el
+país al cual se observe.
+
+Existen diferencias sustantivas respecto al desarrollo e implementación
+de las TIC entre regiones. Los países desarrollados han logrado superar
+en cierta medida la primera brecha digital [@claro_impacto_2010]. Aunque
+la segunda brecha aún no logra encontrar soluciones plausibles en ningún
+lugar del mundo por el momento, en Latinoamérica ni siquiera se ha
+encontrado alguna resolución respecto a los problemas de acceso a las
+TIC [@claro_impacto_2010].
+
+En este contexto, la alfabetización digital surge como una alternativa
+que posibilita hacer frente a las brechas digitales a través del
+desarrollo de habilidades necesarias para ser usuario de la información
+digital, tales como la aptitud para identificar la calidad de un
+contenido y/o la adaptabilidad a diversos contextos en el uso de TIC
+[@castells_sociedad_2006; @garcia-avila_alfabetizacion_2017]. Es
+importante precisar que, aunque la alfabetización digital pueda
+concebirse como una opción para reducir la exclusión digital, debe
+comprenderse más allá de su carácter resolutivo y considerarse como una
+de las piedras angulares para el desarrollo humano actual en tanto dota
+de una capacidad agencial a los individuos al permitirles desplegarse
+activamente en los nuevos entornos que involucran la digitalidad, lo que
+consecuentemente los lleva a integrarse a la sociedad apropiadamente y
+no quedar marginado de la ciudadanía [@silvera_alfabetizacion_2005;
+@barroso_investigacion_2011; @cabero_tendencias_2016]. Considerando
+esto, la digitalidad como una suerte de nueva esfera social constata
+posibilidades y desafíos, los cuales debe tomar como tarea de estudio la
+sociología en tanto puede aportar a la comprensión de las dinámicas
+particulares que afectan a todas las sociedades en mayor o menor medida.
+
+En esta línea, algunos estudios han intentado hallar los factores que
+inciden en el uso de las TIC empleando análisis comparados, lo cual se
+relaciona cercanamente con temas de alfabetización digital. Por ejemplo,
+está el estudio de @gerick_schoollevel_2017, cuyo propósito fue
+evidenciar cuáles son los factores a nivel escuela que apoyan u
+obstaculizan el uso de TIC por parte de profesores y estudiantes,
+comparando entre Australia, Alemania, Noruega y República Checa. Por su
+parte, @aydin_multilevel_2022 se centró en indagar en los determinantes
+de la alfabetización digital en alumnos, realizando un estudio que
+examinó las características de los profesores y los estudiantes mediante
+un análisis comparativo entre Finlandia y Corea. En la misma línea, este
+trabajo se fundamenta en intentar comprender los factores que inciden en
+la alfabetización digital a través de un análisis comparado entre
+países, con tal de dilucidar cómo se comportan estos predictores en
+distintos lugares. Tomando en cuenta esto, se propone las siguientes
+preguntas de investigación: **¿Cómo afectan los factores macro en la
+alfabetización digital de los jóvenes?** **¿En qué medida incide la
+digitalización de los gobiernos y sus subsecuentes procesos en la
+alfabetización en los jóvenes de su país?**
+
+# Objetivos e hipótesis
+
+Con tal de poder responder las preguntas de investigación planteadas, el
+trabajo es realizado con los siguientes objetivos:
+
+**Objetivo general**
+
+Examinar los principales determinantes de la alfabetización digital en
+estudiantes entre países al año 2023
+
+**Objetivos específicos**
+
+Determinar la influencia de variables de nivel individual en la
+alfabetización digital en estudiantes en distintos países
+
+Determinar la influencia de la gobernanza digital de un país en la
+alfabetización digital de los estudiantes
+
+Determinar la influencia de la desigualdad económica de un país en la
+alfabetización digital de los estudiantes
+
+**Hipótesis de nivel 1**
+
+*h1*: A mayor nivel de autoeficacia digital general del estudiante,
+mayor puntaje en alfabetización digital
+
+*h2*: Mientras el estudiante realice más tareas relacionadas al
+aprendizaje online en la escuela, mayor será su puntaje de
+alfabetización digital
+
+**Hipótesis de nivel 2**
+
+*h3*: Pertenecer a un país con mayor índice de gobernanza digital tiene
+un efecto positivo sobre la alfabetización digital de los estudiantes
+
+*h4*: A mayor índice de desigualdad en un país, los estudiantes tendrán
+un puntaje más bajo de alfabetización digital
+
+# Datos, variables y métodos
+
+## Datos
+
+Para dar una respuesta plausible a la pregunta de investigación, el
+presente estudio se sirve de la base de datos del último ciclo del
+International [Computer and Information Literacy
+Study](https://www.iea.nl/studies/iea/icils/2023) (ICILS) llevado a cabo
+el año 2023. La particularidad de esta base de datos reside en que, por
+cada país donde fue implementado el estudio, existen tres tipos de
+archivos de datos para tres niveles establecidos: nivel de escuela,
+nivel de profesor y nivel de estudiante. Otra de las peculiaridades de
+esta base es que, además de aplicar encuestas de caracterización,
+realiza una prueba práctica estandarizada para cumplir con la medición
+de la alfabetización digital. En este caso, se van a utilizar las bases
+de datos de estudiantes, la cual, después de haber sido procesada tiene
+N = 95.814 anidados en 28 países. El diseño muestral es complejo por
+conglomerados multietápicos. Por último, es pertinente mencionar que la
+unidad de análisis son los estudiantes correspondientes al octavo año de
+escolarización.
+
+## Variables
+
+**Variables nivel 1**
+
+Sexo (sexo): Esta variable puede tener dos valores: 0 para hombre y 1
+para mujer.
+
+Autoeficacia (autoeffgen; autoeffesp): Para medir la autoeficacia, se
+emplearon dos dimensiones: autoeficacia relacionada al uso general de
+aplicaciones y autoeficacia relacionada al uso especializado de
+aplicaciones. Cada una de ellas es un índice construido a partir de
+distintos enunciados relacionados a la autopercepción del estudiante
+respecto a qué tan bien puede desempeñar una labor usando TIC. Ambas
+autoeficacias poseen cuatro categorías de respuesta: (1) Muy bien; (2)
+Moderadamente bien; (3) Nunca he hecho esto, pero podría descubrir cómo
+hacerlo; (4) No creo que pueda hacer esto.
+
+Experiencia con computador en años (expcompu): Mide la cantidad de años
+de experiencia que posee un estudiante con computador a través de cinco
+categorías de respuesta. (0) Nunca o menos de un año; (1) Al menos un
+año pero menos que tres; (2) Al menos tres años pero menos que cinco;
+(3) Al menos cinco años pero menos que siete; (4) Siete años o más.
+
+Tareas relacionadas al aprendizaje online en la escuela
+(aprendizaje_escuela): Es una variable construida a partir de una serie
+de indices que refieren a si el estudiante realizó la respectiva
+actividad en su escuela.
+
+Alfabetización digital (alf_digital): La variable dependiente de este
+estudio es el logro de alfabetización digital medido a través de una
+prueba compuesta por cuatro módulos, de los cuales los estudiantes sólo
+respondieron dos seleccionados de manera aleatoria. La variable puede
+tomar 5 valores plausibles a partir del puntaje logrado por los
+estudiantes: Bajo del nivel 1 (menos de 407 puntos), Nivel 1 (desde 407
+hasta 491 puntos), Nivel 2 (desde 492 hasta 576 puntos), Nivel 3 (desde
+557 hasta 661 puntos) y el Nivel 4 (sobre 661 puntos).
+
+**Variables nivel 2**
+
+Gobernanza digital (egov_egov): Es una media ponderada de puntajes
+normalizados extraído de Quality of Government, el cual está construido
+a partir de un índice de servicios online, un índice del estado de
+desarrollo de infraestructura en telecomunicaciones y un índice de
+capital humano. Sus valores van del 0 al 1, donde los valores más
+cercanos al 1 significan mayor capacidad de gobernanza digital.
+
+Índice Gini (wdi_gini): Es uno de los índices más reconocidos en la
+medición de la distribución de ingresos. Sus valores van del 0 al 100,
+donde un valor más cercano al 0 significa mayor igualdad económica,
+mientras que los relativos a 100 expresan mayor desigualdad en ingresos.
+
+## Métodos
+
+En el marco de la investigación, se pretende emplear modelos multinivel
+para realizar un análisis comparado entre los distintos países que
+conforman el estudio. Una de las razones por las que se opta este método
+es debido a la capacidad de estudiar estructuras de datos jerárquicos de
+la población (Hox et al, 2017). De esta manera, los modelos multinivel
+permiten complejizar los análisis en tanto pueden ayudar a comprender
+relaciones entre variables de tipo individual con variables de tipo
+contextual. En relación con ello, esta técnica de análisis se utiliza
+para observar datos anidados, por lo cual se estima ideal para el
+desarrollo de este trabajo en tanto se estudiarán datos de estudiantes
+que se hallan anidados en países.
+
+# Análisis
+
+A continuación, se observan los principales resultados del estudio a
+nivel descriptivo. Posteriormente, se presentan los modelos multinivel
+estimados.
+
+```{r}
+#| label: set
+#| echo: false
+#| message: false
+#| warning: false
+
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE, include = TRUE, warning = FALSE, message = FALSE)
+
+table_format <- if(is_html_output()) {
+  "html"
+} else if(is_latex_output()) {
+  "latex"
+}
+table_format2 <- if(is_html_output()) {
+  T
+} else if(is_latex_output()) {
+  F
+}
+
+options(kableExtra.html.bsTable = T)
+options(knitr.kable.NA = "")
+```
+
+```{r}
+#| echo: false 
+
+rm(list=ls())     
+options(scipen=999)
+```
+
+```{r}
+#| echo: false 
+
+pacman::p_load(lme4, reghelper, haven, stargazer, ggplot2, texreg, dplyr,
+               foreign, lattice, sjPlot, sjlabelled, skimr)
+```
+
+```{r}
+library(ggeffects)
+```
+
+```{r}
+#| echo: false
+
+icils <- readRDS("input/data/proc_data/icils_final.rds")
+```
+
+```{r}
+#| label: Agregar labels a las variables
+#| include: false 
+
+icils$sexo <- set_label(icils$sexo, "Sexo del estudiante")
+icils$expcompu <- set_label(icils$expcompu, "Experiencia con computador en años")
+icils$aprendizaje_escuela <- set_label(icils$aprendizaje_escuela, "Tareas relacionadas al aprendizaje online en la escuela")
+icils$autoeffgen <- set_label(icils$autoeffgen, "Autoeficacia digital general del estudiante")
+icils$iiseb <- set_label(icils$iiseb, "Índice Socioeconómico Internacional")
+icils$alf_digital <- set_label(icils$alf_digital, "Puntaje de alfabetización digital")
+icils$egov_egov <- set_label(icils$egov_egov, "Administración digital")
+icils$pib <- set_label(icils$pib, "Producto Interno Bruto per cápita")
+```
+
+```{r}
+#| label: base agg código fallido
+#| echo: false
+icils_lvl_2 <- icils %>% group_by(CNTRY) %>% summarise_all(funs(mean))
+```
+
+```{r}
+#| label: base agregada
+#| echo: false 
+
+agg_mlm <- icils %>% 
+  group_by(CNTRY) %>% 
+  summarise(across(where(is.numeric), mean, na.rm = TRUE))
+
+icils_allagg <- icils_allcases %>% 
+  group_by(CNTRY) %>% 
+  summarise(across(where(is.numeric), mean, na.rm = TRUE))
+
+rm(agg_mlm)
+```
+
+## Descriptivos
+
+```{r}
+#| tbl-cap-location: bottom
+#| label: tbl-descr1
+
+icils %>%  select (alf_digital, sexo, expcompu, aprendizaje_escuela,
+                   autoeffgen, autoeffesp, iiseb) %>% 
+  haven::zap_labels() %>%
+  sjmisc::descr(.,
+      show = c("label","range", "mean", "sd", "NA.prc", "n"))%>%
+      kable(., digits =2, "markdown", caption = "Variables nivel 1")
+```
+
+```{r}
+#| tbl-cap-location: bottom
+#| label: tbl-descr2
+
+agg_mlm %>%  select (egov_egov, wdi_gini) %>% 
+  haven::zap_labels() %>%
+  sjmisc::descr(.,
+      show = c("label","range", "mean", "sd", "NA.prc", "n"))%>%
+      kable(., digits =2, "markdown", caption = "Variables nivel 2")
+```
+
+```{r}
+#| fig-cap: Descriptivos entre variable dependiente y variable nivel 2
+#| fig-cap-location: bottom
+#| label: fig-descr
+
+scatter <- icils %>% group_by(CNTRY) %>% select(alf_digital, pib) %>% 
+  na.omit() %>% 
+  summarise_all(mean)
+
+sjPlot::plot_scatter(scatter, pib, alf_digital,
+            dot.labels = to_label(scatter$CNTRY),
+            fit.line = "lm",
+            show.ci = TRUE,
+            axis.titles = c("Producto Interno Bruto",
+            "Alfabetización digital"),
+            colors = "#7b241c"
+            )
+```
+
+En @fig-descr se observa un gráfico de dispersión a partir de la
+relación entre los índices de alfabetización digital y los de
+administración digital por país.
+
+## Modelos
+
+### Modelo nulo
+
+```{r}
+#| caption: Modelo nulo
+#| include: false 
+
+results_0a = lmer(alf_digital ~ 1 + (1 | CNTRY), data = icils)
+
+```
+
+```{r}
+results_0b = lmer(alf_digital ~ 1 + (1 | CNTRY), data = icils_allcases)
+summary(results_0b)
+```
+
+[alf_digital$_{ij}$ =
+$\gamma_{00}$+$\mu_{0j}$+$r_{ij}$]{style="font-size: 1.3em;"}
+
+```{r}
+#| include: false
+screenreg(results_0a)
+reghelper::ICC(results_0a)
+```
+
+```{r}
+#| include: false
+reghelper::ICC(results_0b)
+```
+
+**ICC** = 0.23
+
+### Modelo con variables nivel 1
+
+```{r}
+#| caption: Modelo variables nivel 1
+#| include: false 
+
+results_1a = lmer(alf_digital ~ 1 + sexo + iiseb + expcompu + autoeffgen + aprendizaje_escuela + (1 | CNTRY), data = icils)
+screenreg(results_1a, naive=TRUE)
+```
+
+```{r}
+
+results_1b = lmer(alf_digital ~ 1 + sexo + iiseb + expcompu + autoeffgen + autoeffesp + aprendizaje_escuela + (1 | CNTRY), data = icils_allcases)
+screenreg(results_1b, naive=TRUE)
+```
+
+alf_digital$_{ij}$ =
+$\gamma_{00}$+$\gamma_{10}(sexo)X_{ij}$+$\gamma_{20}(iiseb)X_{ij}$
+
+alf_digital$_{ij}$ =
+$\gamma_{00}$+$\gamma_{10}sexo_{ij}$+$\gamma_{20}iiseb_{ij}$
+
+### Modelo variables nivel 2
+
+```{r}
+#| caption: Modelo variables nivel 2
+#| include: false
+
+results_2a = lmer(alf_digital ~ 1 + adm_digital + pib + (1 | CNTRY), data = icils)
+screenreg(results_2a)
+```
+
+```{r}
+results_2b = lmer(alf_digital ~ 1 + egov_egov + wdi_gini + (1 | CNTRY), data = icils_allcases)
+screenreg(results_2b)
+```
+
+```{r}
+#| caption: Predictores individuales y grupales
+#| include: false 
+
+results_3a = lmer(alf_digital ~ 1 + expcompu + sexo + autoeffgen +
+                   aprendizaje_escuela + iiseb + adm_digital + pib + (1 | CNTRY), data = icils)
+screenreg(results_3a)
+```
+
+```{r}
+results_3b = lmer(alf_digital ~ 1 + expcompu + sexo + autoeffgen + autoeffesp +
+                   aprendizaje_escuela + iiseb + wdi_gini + (1 | CNTRY), data = icils_allcases)
+screenreg(results_3b)
+```
+
+# Comparación modelos
+
+```{r}
+#| include: false
+
+reg_ind=lm(alf_digital ~ expcompu + sexo + autoeffgen + aprendizaje_escuela + iiseb, data=icils)
+reg_agg=lm(alf_digital ~ expcompu + sexo + autoeffgen + aprendizaje_escuela + adm_digital + pib, data=icils_lvl2)
+
+screenreg(list(reg_ind, reg_agg, results_3a))
+```
+
+```{r}
+
+reg_ind=lm(alf_digital ~ expcompu + sexo + autoeffgen + autoeffesp + aprendizaje_escuela + iiseb, data=icils_allcases)
+reg_agg=lm(alf_digital ~ expcompu + sexo + autoeffgen + autoeffesp + aprendizaje_escuela + egov_egov + wdi_gini, data = icils_allagg)
+
+screenreg(list(reg_ind, reg_agg, results_3b))
+```
+
+```{r}
+#| tbl-cap: Tabla comparativa de los modelos
+#| tbl-cap-location: bottom
+#| label: tbl-modelos
+
+tab_modela(reg_ind, reg_agg, results_3,
+  show.ci = FALSE, 
+  show.se = TRUE, 
+  collapse.se = TRUE,
+  show.p = FALSE,
+  p.style = c("scientific_stars")
+  )
+```
+
+```{r}
+#| tbl-cap: Tabla comparativa de los modelos
+#| tbl-cap-location: bottom
+#| label: tbl-modelos
+
+tab_model(results_0b, reg_ind, reg_agg, results_3b,
+  show.ci = FALSE, 
+  show.se = TRUE, 
+  collapse.se = TRUE,
+  show.p = FALSE,
+  p.style = c("scientific_stars")
+  )
+```
+
+# Resultados
+
+En la @tbl-modelos se visualizan los tres modelos estimados,
+correspondientes al modelo relativo a variables individuales, el modelo
+agregado y el modelo multinivel respectivamente. Uno de los resultados
+más llamativos, y a la misma vez desalentadores, es la Correlación Intra
+Clase, la cual es de 0.11. Esto significa que solamente un 9% de la
+varianza de la alfabetización digital es explicada por determinantes a
+nivel de país. En la misma línea, ambas variables de nivel 2 no poseen
+significación estadística, por lo que no se puede rechazar la hipótesis
+nula y, en consecuencia, determinar si la Gobernanza digital y el Índice
+Gini afectan en la alfabetización digital de los estudiantes.
+
+Por otra parte, todas las variables individuales son significativamente
+estadísticas. Para el caso del modelo multinivel, la asociación entre
+autoeficacia digital general y alfabetización digital es positiva, donde
+por cada punto que incrementa la autoeficacia general, alfabetización
+digital aumenta en 1.99. En la misma línea, las tareas relacionadas al
+aprendizaje online también influyen de manera positiva en el logro de
+alfabetización digital en los estudiantes.
+
+Tomando en cuenta lo anterior, se puede deducir que no hay evidencia
+suficiente para rechazar *h1* y *h2*. Además, como respuesta a nuestras
+preguntas de investigación se puede declarar que los factores macro no
+han podido comprobar su incidencia en la alfabetización digital de los
+estudiantes. Por ello, también se rechazan *h3* y *h4*. Es sumamente
+importante reflexionar en torno a estos hallazgos, pues puede existir la
+posibilidad de que los procesos de digitalización de los gobiernos, al
+afectar directamente a los jóvenes, estos sean afectados. Aun así, se
+considera replantear la selección de variables nivel 2 para buscar
+relaciones significativas entre la alfabetización digital y factores de
+carácter estructural.
+
+# Pendiente aleatoria
+
+```{r}
+reg_mlm2 <- lmer(alf_digital ~ 1 + iiseb + wdi_gini + (1 + iiseb | CNTRY), data = icils_allcases)
+
+graf2 <- ggpredict(reg_mlm2, terms = c("iiseb", "CNTRY [sample=9]"), type = "random")
+```
+
+```{r}
+plot(graf2)
+```
